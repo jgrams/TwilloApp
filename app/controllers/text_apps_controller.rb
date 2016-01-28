@@ -10,7 +10,7 @@ class TextAppsController < ApplicationController
   # GET /text_apps/1
   # GET /text_apps/1.json
   def show
-  	@key = params[:id][:phone_num]
+  	@text_app = TextApp.find(params[:id])
   end
 
   # GET /text_apps/new
@@ -41,18 +41,18 @@ class TextAppsController < ApplicationController
       end
     end
     
-    
-		account_sid = "PN72b767764ed66cdc6ebb96f683a60904"
+		account_sid = "ACf74fe283ec05664c5cc922e34831d60e"
 		auth_token = "7b6baaf5e68b5cfcc7d989a731db89f4"
 		client = Twilio::REST::Client.new account_sid, auth_token
-    key = params[:id][:phone_num]
-		from = "+16144271054" # My definite number
+	  key = @text_app.phone_num
+	  outof = "+16144271054" # My definite number
 		client.account.messages.create(
-    		:from => from,
-    		:to => key,
-    		:body => "Hey, Monkey party at 6PM. Bring Bananas!"
-  		)
-    end
+    			:from => outof,
+    			:to => key,
+    			:body => "Hey!  I learned a lot from making this app.  Most of all, I should go slow.",
+    			)
+    
+	end
 
 #Post the number to the WWW
 	def post

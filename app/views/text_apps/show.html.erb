@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Phone num:</strong>
+  <strong>The number that got sent to Twillo:</strong>
   <%= @text_app.phone_num %>
 </p>
 
@@ -12,10 +12,12 @@
 
 <p>TO BE CUT: <%= %> html output</p>
 
-<%= @text_app %>
+<p>@text_app:</p>
+<%= debug @text_app %>
 
-Friends Hash:
-<%= @friendlies[:name] %><%= @friendlies[params[:phone_num] %>
+<p>@key:</p>
+<%= @key %>
+
 
 
 <%= link_to 'Edit', edit_text_app_path(@text_app) %> |

@@ -32,3 +32,1231 @@ Started GET "/" for ::1 at 2016-01-28 01:45:55 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
 Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/7" for ::1 at 2016-01-28 06:43:59 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mTextApp Load (0.6ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 7]]
+Completed 500 Internal Server Error in 119ms (ActiveRecord: 5.7ms)
+
+TypeError (no implicit conversion of Symbol into Integer):
+  app/controllers/text_apps_controller.rb:13:in `[]'
+  app/controllers/text_apps_controller.rb:13:in `show'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (188.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (242.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (4.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (443.0ms)
+
+
+Started GET "/text_apps/7" for ::1 at 2016-01-28 06:50:00 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTextApp Load (0.3ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  Rendered text_apps/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 3.0ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/show.html.erb:18: syntax error, unexpected ')', expecting ']'
+...friendlies[params[:phone_num] );@output_buffer.safe_append='
+...                               ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/show.html.erb:24: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/show.html.erb:26: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/text_apps/show.html.erb:18: syntax error, unexpected ')', expecting ']'
+  app/views/text_apps/show.html.erb:24: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/text_apps/show.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (252.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (197.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (3.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (398.0ms)
+
+
+Started GET "/text_apps/7" for ::1 at 2016-01-28 06:51:36 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mTextApp Load (1.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 7]]
+  Rendered text_apps/show.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 811ms (Views: 807.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/text_apps/7" for ::1 at 2016-01-28 06:52:19 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTextApp Load (0.3ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "7"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 150ms (Views: 134.7ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 06:52:21 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (358.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (363.5ms)
+Completed 200 OK in 417ms (Views: 415.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/7" for ::1 at 2016-01-28 06:53:22 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTextApp Load (0.5ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  Rendered text_apps/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 153ms (Views: 136.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/text_apps/7" for ::1 at 2016-01-28 06:54:05 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mTextApp Load (0.4ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 7]]
+  Rendered text_apps/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 205ms (Views: 181.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/text_apps/7" for ::1 at 2016-01-28 06:54:41 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTextApp Load (0.5ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "7"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 150ms (Views: 136.5ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/text_apps/7" for ::1 at 2016-01-28 06:57:27 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTextApp Load (0.4ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "7"]]
+  Rendered text_apps/show.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 202ms (Views: 199.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/text_apps/7" for ::1 at 2016-01-28 06:58:37 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTextApp Load (0.3ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "7"]]
+  Rendered text_apps/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 152ms (Views: 138.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/text_apps/7" for ::1 at 2016-01-28 06:59:34 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTextApp Load (0.8ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "7"]]
+  Rendered text_apps/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 184ms (Views: 178.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 07:00:18 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (20.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 193ms (Views: 191.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 07:00:34 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iUflwQfBuPDPWtXP6/uBlX/ij65sHwGkB6EdqRqGk/2RCi6E1L6DAXlzM7V7XHJqgfwCD98VZ12PqJrsq+U8pw==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"John"}, "commit"=>"Create Text app"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (24.7ms)[0m  INSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["phone_num", "+16143269262"], ["name", "John"], ["created_at", "2016-01-28 13:00:34.274359"], ["updated_at", "2016-01-28 13:00:34.274359"]]
+  [1m[36m (20.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/8
+  [1m[35mTextApp Load (0.6ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", nil]]
+Completed 404 Not Found in 55ms (ActiveRecord: 46.1ms)
+
+ActiveRecord::RecordNotFound (Couldn't find TextApp with 'id'=):
+  app/controllers/text_apps_controller.rb:45:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (220.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (144.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (6.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (344.5ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:01:42 -0600
+Processing by TextAppsController#index as HTML
+  [1m[36mTextApp Load (2.2ms)[0m  [1mSELECT "text_apps".* FROM "text_apps"[0m
+  Rendered text_apps/index.html.erb within layouts/application (33.4ms)
+Completed 200 OK in 307ms (Views: 293.1ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 07:03:43 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (105.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (128.6ms)
+Completed 200 OK in 950ms (Views: 908.8ms | ActiveRecord: 4.1ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 07:04:00 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WDKi9S+y+AP4snZ5J4RV0JA6r813mzOsno4P2pzLa2FAf2mw/M3D8k6bkAO3I6YvbiQibMSRVVUWh4ifLajEOw==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"Johnny"}, "commit"=>"Create Text app"}
+  [1m[35m (9.3ms)[0m  BEGIN
+  [1m[36mSQL (28.4ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["phone_num", "+16143269262"], ["name", "Johnny"], ["created_at", "2016-01-28 13:04:00.636969"], ["updated_at", "2016-01-28 13:04:00.636969"]]
+  [1m[35m (24.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/9
+Completed 500 Internal Server Error in 152ms (ActiveRecord: 62.3ms)
+
+NameError (undefined local variable or method `phone_num' for #<TextAppsController:0x007f8ab0e14fc8>):
+  app/controllers/text_apps_controller.rb:48:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (200.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (176.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (416.2ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:04:20 -0600
+Processing by TextAppsController#index as HTML
+  [1m[36mTextApp Load (0.5ms)[0m  [1mSELECT "text_apps".* FROM "text_apps"[0m
+  Rendered text_apps/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 119ms (Views: 112.8ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 07:05:05 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WDKi9S+y+AP4snZ5J4RV0JA6r813mzOsno4P2pzLa2FAf2mw/M3D8k6bkAO3I6YvbiQibMSRVVUWh4ifLajEOw==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"Johnny"}, "commit"=>"Create Text app"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["phone_num", "+16143269262"], ["name", "Johnny"], ["created_at", "2016-01-28 13:05:05.420560"], ["updated_at", "2016-01-28 13:05:05.420560"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/10
+Completed 500 Internal Server Error in 869ms (ActiveRecord: 4.3ms)
+
+Twilio::REST::RequestError (Authentication Error - PN72b767764ed66cdc6ebb96f683a60904 is not a valid username):
+  app/controllers/text_apps_controller.rb:50:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (220.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (216.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (404.7ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:06:51 -0600
+Processing by TextAppsController#index as HTML
+  [1m[36mTextApp Load (0.4ms)[0m  [1mSELECT "text_apps".* FROM "text_apps"[0m
+  Rendered text_apps/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 139ms (Views: 133.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 07:06:55 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (3.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 55ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 07:07:17 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G572F93c11mQ96ctU8XwfobjL6ByOjpR0Lb3CGOIR0YD0z1SDqPsqCbeQVfDYgOBeP2iAcEwXKhYv3BN0uvoHA==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"Johhny"}, "commit"=>"Create Text app"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["phone_num", "+16143269262"], ["name", "Johhny"], ["created_at", "2016-01-28 13:07:17.598428"], ["updated_at", "2016-01-28 13:07:17.598428"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/11
+Completed 500 Internal Server Error in 770ms (ActiveRecord: 1.0ms)
+
+Twilio::REST::RequestError (The 'To' number phone_num is not a valid phone number.):
+  app/controllers/text_apps_controller.rb:50:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (209.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (157.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (4.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (7.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (375.7ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 07:09:41 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (3.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 161ms (Views: 159.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 07:09:58 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LH58dTCwLJll9saTyuXMBCamtE8J844WwYN/PA/jYYk0M7cw488XaNPfIOlaQj/72Lg57rr56O9Jivh5voDO0w==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"John"}, "commit"=>"Create Text app"}
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["phone_num", "+16143269262"], ["name", "John"], ["created_at", "2016-01-28 13:09:58.047722"], ["updated_at", "2016-01-28 13:09:58.047722"]]
+  [1m[36m (19.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/12
+Completed 500 Internal Server Error in 842ms (ActiveRecord: 20.6ms)
+
+Twilio::REST::RequestError (The 'To' number phone_num is not a valid phone number.):
+  app/controllers/text_apps_controller.rb:50:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (164.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (251.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (486.5ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:10:55 -0600
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:52: syntax error, unexpected tSYMBEG, expecting ')'
+    		:body => "Hey, Monkey party at 6PM. Bring Bananas!"
+    		 ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:53: syntax error, unexpected ')', expecting keyword_end
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:97: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/text_apps_controller.rb:52: syntax error, unexpected tSYMBEG, expecting ')'
+  app/controllers/text_apps_controller.rb:53: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/text_apps_controller.rb:97: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (166.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (139.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (341.1ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:11:54 -0600
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:52: syntax error, unexpected tSYMBEG, expecting ')'
+    		:body => "Hey, Monkey party at 6PM. Bring Bananas!"
+    		 ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:53: syntax error, unexpected ')', expecting keyword_end
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:98: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/text_apps_controller.rb:52: syntax error, unexpected tSYMBEG, expecting ')'
+  app/controllers/text_apps_controller.rb:53: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/text_apps_controller.rb:98: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (178.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (147.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (336.1ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:12:15 -0600
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:52: syntax error, unexpected tSYMBEG, expecting ')'
+    		:body => "Hey, Monkey party at 6PM. Bring Bananas!"
+    		 ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:53: syntax error, unexpected ')', expecting keyword_end
+  		)end
+  		 ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:98: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/text_apps_controller.rb:52: syntax error, unexpected tSYMBEG, expecting ')'
+  app/controllers/text_apps_controller.rb:53: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/text_apps_controller.rb:98: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (185.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (165.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (354.8ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:21:33 -0600
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:52: syntax error, unexpected tSYMBEG, expecting ')'
+    		:body => "Hey, Monkey party at 6PM. Bring Bananas!"
+    		 ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:53: syntax error, unexpected ')', expecting keyword_end
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:97: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/text_apps_controller.rb:52: syntax error, unexpected tSYMBEG, expecting ')'
+  app/controllers/text_apps_controller.rb:53: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/text_apps_controller.rb:97: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (158.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (132.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (292.8ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:22:55 -0600
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:51: syntax error, unexpected tSYMBEG, expecting ')'
+    		:to => :phone_num
+    		 ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:52: syntax error, unexpected =>, expecting keyword_end
+    		:body => "Hey, Monkey party at 6PM. Bring Bananas!"
+    		        ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:53: syntax error, unexpected ')', expecting keyword_end
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:97: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/text_apps_controller.rb:51: syntax error, unexpected tSYMBEG, expecting ')'
+  app/controllers/text_apps_controller.rb:52: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/text_apps_controller.rb:53: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/text_apps_controller.rb:97: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (194.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (127.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (283.9ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:47:22 -0600
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:51: syntax error, unexpected tSYMBEG, expecting ')'
+    		:to => params[:phone_num]
+    		 ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:52: syntax error, unexpected =>, expecting keyword_end
+    		:body => "Hey, Monkey party at 6PM. Bring Bananas!")
+    		        ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:52: syntax error, unexpected ')', expecting keyword_end
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:96: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/text_apps_controller.rb:51: syntax error, unexpected tSYMBEG, expecting ')'
+  app/controllers/text_apps_controller.rb:52: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/text_apps_controller.rb:52: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/text_apps_controller.rb:96: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (170.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (121.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (271.1ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:47:52 -0600
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:51: syntax error, unexpected tSYMBEG, expecting ')'
+    		:to => +16143269262
+    		 ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:52: syntax error, unexpected =>, expecting keyword_end
+    		:body => "Hey, Monkey party at 6PM. Bring Bananas!")
+    		        ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:52: syntax error, unexpected ')', expecting keyword_end
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:96: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/text_apps_controller.rb:51: syntax error, unexpected tSYMBEG, expecting ')'
+  app/controllers/text_apps_controller.rb:52: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/text_apps_controller.rb:52: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/text_apps_controller.rb:96: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (140.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (187.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (337.2ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:48:51 -0600
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:51: syntax error, unexpected tSYMBEG, expecting ')'
+    			:to => +16143269262
+    			 ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:52: syntax error, unexpected =>, expecting keyword_end
+    			:body => "Hey, Monkey party at 6PM. Bring Bananas!")
+    			        ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:52: syntax error, unexpected ')', expecting keyword_end
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:97: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/text_apps_controller.rb:51: syntax error, unexpected tSYMBEG, expecting ')'
+  app/controllers/text_apps_controller.rb:52: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/text_apps_controller.rb:52: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/text_apps_controller.rb:97: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (184.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (123.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (282.1ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:49:39 -0600
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:51: syntax error, unexpected tSYMBEG, expecting ')'
+    			:to => "+16143269262"
+    			 ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:52: syntax error, unexpected =>, expecting keyword_end
+    			:body => "Hey, Monkey party at 6PM. Bring Bananas!")
+    			        ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:52: syntax error, unexpected ')', expecting keyword_end
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:97: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/text_apps_controller.rb:51: syntax error, unexpected tSYMBEG, expecting ')'
+  app/controllers/text_apps_controller.rb:52: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/text_apps_controller.rb:52: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/text_apps_controller.rb:97: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (138.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (122.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (284.1ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:50:20 -0600
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:51: syntax error, unexpected keyword_end, expecting ')'
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:54: syntax error, unexpected =>, expecting keyword_end
+    			:body => "Hey, Monkey party at 6PM. Bring Bananas!"
+    			        ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:55: syntax error, unexpected ')', expecting end-of-input):
+  app/controllers/text_apps_controller.rb:51: syntax error, unexpected keyword_end, expecting ')'
+  app/controllers/text_apps_controller.rb:54: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/text_apps_controller.rb:55: syntax error, unexpected ')', expecting end-of-input
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (151.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (128.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (378.8ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 07:56:52 -0600
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:40: syntax error, unexpected tSYMBEG, expecting ')'
+    			:to => "+16143269262"
+    			 ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:41: syntax error, unexpected =>, expecting keyword_end
+    			:body => "Hey, Monkey party at 6PM. Bring Bananas!")
+    			        ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:41: syntax error, unexpected ')', expecting keyword_end
+/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:85: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/text_apps_controller.rb:40: syntax error, unexpected tSYMBEG, expecting ')'
+  app/controllers/text_apps_controller.rb:41: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/text_apps_controller.rb:41: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/text_apps_controller.rb:85: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (158.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (130.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (301.3ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 08:02:52 -0600
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:98: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/text_apps_controller.rb:98: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (152.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (138.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (293.3ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 08:03:11 -0600
+Processing by TextAppsController#index as HTML
+  [1m[35mTextApp Load (1.0ms)[0m  SELECT "text_apps".* FROM "text_apps"
+  Rendered text_apps/index.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 198ms (Views: 186.4ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 08:03:15 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (4.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 08:03:26 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YeWDKMRF8dY/WmiTEDyA7v0gLqUzCLlE6cBabIjThMF5qEhtFzrKJ4lzjumAm3MRAz6jBIAC371hyd0pObArmw==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"asdf"}, "commit"=>"Create Text app"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["phone_num", "+16143269262"], ["name", "asdf"], ["created_at", "2016-01-28 14:03:26.967133"], ["updated_at", "2016-01-28 14:03:26.967133"]]
+  [1m[36m (15.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/13
+Completed 302 Found in 1309ms (ActiveRecord: 15.8ms)
+
+
+Started GET "/text_apps/13" for ::1 at 2016-01-28 08:03:28 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mTextApp Load (0.5ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "13"]]
+  Rendered text_apps/show.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 354ms (Views: 156.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/text_apps/13" for ::1 at 2016-01-28 08:06:06 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mTextApp Load (0.3ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "13"]]
+  Rendered text_apps/show.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 151ms (Views: 137.0ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 08:06:12 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (5.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 151ms (Views: 149.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 08:06:27 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1zzsC/ifWo6xANc8bgsX64N92wu0zOvXiw26gYjZ4KnPcSdOK+BhfwcpMUb+rOQUfWNWqgfGjS4DBD3EObpP8w==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"asdfadfg"}, "commit"=>"Create Text app"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["phone_num", "+16143269262"], ["name", "asdfadfg"], ["created_at", "2016-01-28 14:06:27.329373"], ["updated_at", "2016-01-28 14:06:27.329373"]]
+  [1m[35m (15.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/14
+Completed 500 Internal Server Error in 761ms (ActiveRecord: 16.6ms)
+
+Twilio::REST::RequestError (A 'From' phone number is required.):
+  app/controllers/text_apps_controller.rb:49:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (145.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (128.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (302.8ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 08:08:52 -0600
+Processing by TextAppsController#index as HTML
+  [1m[36mTextApp Load (0.5ms)[0m  [1mSELECT "text_apps".* FROM "text_apps"[0m
+  Rendered text_apps/index.html.erb within layouts/application (60.8ms)
+Completed 200 OK in 263ms (Views: 233.8ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 08:08:55 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (43.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (50.6ms)
+Completed 200 OK in 112ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 08:09:06 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ULSPG+Gj3RWCYjf3KQl7M9oZ8ErTCFfCB6GTwymckc1I+UReMtzm5DRL0Y25rojMJAd962ACMTuPqBSGmP8+lw==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"asdfasdf"}, "commit"=>"Create Text app"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (19.5ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["phone_num", "+16143269262"], ["name", "asdfasdf"], ["created_at", "2016-01-28 14:09:06.949185"], ["updated_at", "2016-01-28 14:09:06.949185"]]
+  [1m[35m (1.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/15
+Completed 500 Internal Server Error in 862ms (ActiveRecord: 21.4ms)
+
+Twilio::REST::RequestError (A 'From' phone number is required.):
+  app/controllers/text_apps_controller.rb:50:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (164.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (124.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (293.5ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 08:10:01 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ULSPG+Gj3RWCYjf3KQl7M9oZ8ErTCFfCB6GTwymckc1I+UReMtzm5DRL0Y25rojMJAd962ACMTuPqBSGmP8+lw==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"asdfasdf"}, "commit"=>"Create Text app"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["phone_num", "+16143269262"], ["name", "asdfasdf"], ["created_at", "2016-01-28 14:10:01.880751"], ["updated_at", "2016-01-28 14:10:01.880751"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/16
+Completed 500 Internal Server Error in 314ms (ActiveRecord: 6.4ms)
+
+Twilio::REST::RequestError (A 'From' phone number is required.):
+  app/controllers/text_apps_controller.rb:50:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (144.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (264.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (484.7ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 08:10:30 -0600
+Processing by TextAppsController#index as HTML
+  [1m[35mTextApp Load (0.4ms)[0m  SELECT "text_apps".* FROM "text_apps"
+  Rendered text_apps/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 118ms (Views: 111.7ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 08:10:33 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (3.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 08:10:45 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/v0kJiZGJxo0ZQ8FN0UeDPbfWIiSMM7mPzhqiCJ7Ir3msO9j9Tkc64JM6X+n4u3zCMHVKSE6qB+3Me3NkxiN5w==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"asdfasdf"}, "commit"=>"Create Text app"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["phone_num", "+16143269262"], ["name", "asdfasdf"], ["created_at", "2016-01-28 14:10:45.532460"], ["updated_at", "2016-01-28 14:10:45.532460"]]
+  [1m[36m (16.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/17
+Completed 500 Internal Server Error in 814ms (ActiveRecord: 17.1ms)
+
+Twilio::REST::RequestError (The From phone number +16143269262 is not a valid, SMS-capable inbound phone number or short code for your account.):
+  app/controllers/text_apps_controller.rb:50:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (142.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (123.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (278.9ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 08:12:22 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/v0kJiZGJxo0ZQ8FN0UeDPbfWIiSMM7mPzhqiCJ7Ir3msO9j9Tkc64JM6X+n4u3zCMHVKSE6qB+3Me3NkxiN5w==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"asdfasdf"}, "commit"=>"Create Text app"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["phone_num", "+16143269262"], ["name", "asdfasdf"], ["created_at", "2016-01-28 14:12:22.555041"], ["updated_at", "2016-01-28 14:12:22.555041"]]
+  [1m[35m (5.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/18
+Completed 302 Found in 672ms (ActiveRecord: 7.8ms)
+
+
+Started GET "/text_apps/18" for ::1 at 2016-01-28 08:12:23 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTextApp Load (0.8ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "18"]]
+  Rendered text_apps/show.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 184ms (Views: 169.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/text_apps/18" for ::1 at 2016-01-28 08:19:17 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTextApp Load (3.3ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "18"]]
+  Rendered text_apps/show.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 346ms (Views: 247.1ms | ActiveRecord: 18.7ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 08:19:27 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (11.1ms)
+  Rendered text_apps/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 230ms (Views: 228.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 08:19:48 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BSkShXbIvbZKqKG03fDT1GW/6AgEV/2JBST31B2NwwIdZNnApbeGR/yBR85NVyArm6Flqbddm3CNLXCRrO5sWA==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"asdflkj"}, "commit"=>"Create Text app"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["phone_num", "+16143269262"], ["name", "asdflkj"], ["created_at", "2016-01-28 14:19:48.486511"], ["updated_at", "2016-01-28 14:19:48.486511"]]
+  [1m[36m (17.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/19
+Completed 302 Found in 573ms (ActiveRecord: 18.0ms)
+
+
+Started GET "/text_apps/19" for ::1 at 2016-01-28 08:19:49 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mTextApp Load (0.4ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 19]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "19"]]
+  Rendered text_apps/show.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 179ms (Views: 176.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 08:20:01 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BSkShXbIvbZKqKG03fDT1GW/6AgEV/2JBST31B2NwwIdZNnApbeGR/yBR85NVyArm6Flqbddm3CNLXCRrO5sWA==", "text_app"=>{"phone_num"=>"+16143269263", "name"=>"asdflkj"}, "commit"=>"Create Text app"}
+  [1m[35m (1.3ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["phone_num", "+16143269263"], ["name", "asdflkj"], ["created_at", "2016-01-28 14:20:01.926052"], ["updated_at", "2016-01-28 14:20:01.926052"]]
+  [1m[35m (17.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/20
+Completed 302 Found in 662ms (ActiveRecord: 20.4ms)
+
+
+Started GET "/text_apps/20" for ::1 at 2016-01-28 08:20:02 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mTextApp Load (2.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "20"]]
+  Rendered text_apps/show.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 167ms (Views: 162.5ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 08:22:44 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BSkShXbIvbZKqKG03fDT1GW/6AgEV/2JBST31B2NwwIdZNnApbeGR/yBR85NVyArm6Flqbddm3CNLXCRrO5sWA==", "text_app"=>{"phone_num"=>"+16143269263", "name"=>"asdflkj"}, "commit"=>"Create Text app"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["phone_num", "+16143269263"], ["name", "asdflkj"], ["created_at", "2016-01-28 14:22:45.124321"], ["updated_at", "2016-01-28 14:22:45.124321"]]
+  [1m[36m (1.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/21
+Completed 302 Found in 613ms (ActiveRecord: 11.9ms)
+
+
+Started GET "/text_apps/21" for ::1 at 2016-01-28 08:22:45 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mTextApp Load (3.1ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "21"]]
+  Rendered text_apps/show.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 263ms (Views: 249.4ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/text_apps/21" for ::1 at 2016-01-28 08:24:57 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mTextApp Load (0.3ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "21"]]
+  Rendered text_apps/show.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 172ms (Views: 155.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/text_apps/" for ::1 at 2016-01-28 08:39:02 -0600
+Processing by TextAppsController#index as HTML
+  [1m[35mTextApp Load (1.0ms)[0m  SELECT "text_apps".* FROM "text_apps"
+  Rendered text_apps/index.html.erb within layouts/application (69.7ms)
+Completed 200 OK in 266ms (Views: 235.7ms | ActiveRecord: 10.3ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 08:39:05 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (16.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (80.4ms)
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: syntax error, unexpected ':', expecting ')'
+...end=( f.text_field :phone_num :required => true, :pattern =>...
+...                               ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: Can't assign to true
+...d :phone_num :required => true, :pattern => '^(\+1|1)?([2-9]...
+...                               ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+... :required => true, :pattern => '^(\+1|1)?([2-9]\d\d[2-9]\d{...
+...                               ^):
+  app/views/text_apps/_form.html.erb:16: syntax error, unexpected ':', expecting ')'
+  app/views/text_apps/_form.html.erb:16: Can't assign to true
+  app/views/text_apps/_form.html.erb:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/text_apps/new.html.erb:3:in `_app_views_text_apps_new_html_erb___1336526270275270885_70116808483040'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (164.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (3.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (177.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (408.3ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 08:39:07 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: syntax error, unexpected ':', expecting ')'
+...end=( f.text_field :phone_num :required => true, :pattern =>...
+...                               ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: Can't assign to true
+...d :phone_num :required => true, :pattern => '^(\+1|1)?([2-9]...
+...                               ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+... :required => true, :pattern => '^(\+1|1)?([2-9]\d\d[2-9]\d{...
+...                               ^):
+  app/views/text_apps/_form.html.erb:16: syntax error, unexpected ':', expecting ')'
+  app/views/text_apps/_form.html.erb:16: Can't assign to true
+  app/views/text_apps/_form.html.erb:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/text_apps/new.html.erb:3:in `_app_views_text_apps_new_html_erb___1336526270275270885_70116824278560'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (159.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (330.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (732.7ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 08:39:22 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: syntax error, unexpected ':', expecting ')'
+...end=( f.text_field :phone_num :required => true, :pattern =>...
+...                               ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: Can't assign to true
+...d :phone_num :required => true, :pattern => ^(\+1|1)?([2-9]\...
+...                               ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+... :required => true, :pattern => ^(\+1|1)?([2-9]\d\d[2-9]\d{6...
+...                               ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: syntax error, unexpected $undefined, expecting ')'
+...e, :pattern => ^(\+1|1)?([2-9]\d\d[2-9]\d{6})$);@output_buff...
+...                               ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: syntax error, unexpected $undefined, expecting ')'
+...rn => ^(\+1|1)?([2-9]\d\d[2-9]\d{6})$);@output_buffer.safe_a...
+...                               ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: `$)' is not allowed as a global variable name
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: syntax error, unexpected end-of-input, expecting ':'
+...^(\+1|1)?([2-9]\d\d[2-9]\d{6})$);@output_buffer.safe_append='
+...                               ^):
+  app/views/text_apps/_form.html.erb:16: syntax error, unexpected ':', expecting ')'
+  app/views/text_apps/_form.html.erb:16: Can't assign to true
+  app/views/text_apps/_form.html.erb:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/text_apps/_form.html.erb:16: syntax error, unexpected $undefined, expecting ')'
+  app/views/text_apps/_form.html.erb:16: syntax error, unexpected $undefined, expecting ')'
+  app/views/text_apps/_form.html.erb:16: `$)' is not allowed as a global variable name
+  app/views/text_apps/_form.html.erb:16: syntax error, unexpected end-of-input, expecting ':'
+  app/views/text_apps/new.html.erb:3:in `_app_views_text_apps_new_html_erb___1336526270275270885_70116824278560'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (209.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (148.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (300.9ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 08:40:44 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (21.3ms)
+  Rendered text_apps/new.html.erb within layouts/application (24.7ms)
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: syntax error, unexpected '^'
+...required => true, :pattern => ^(\+1|1)?([2-9]\d\d[2-9]\d{6})...
+...                               ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: syntax error, unexpected $undefined, expecting ')'
+...e, :pattern => ^(\+1|1)?([2-9]\d\d[2-9]\d{6})$);@output_buff...
+...                               ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: syntax error, unexpected $undefined, expecting ')'
+...rn => ^(\+1|1)?([2-9]\d\d[2-9]\d{6})$);@output_buffer.safe_a...
+...                               ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: `$)' is not allowed as a global variable name
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:16: syntax error, unexpected end-of-input, expecting ':'
+...^(\+1|1)?([2-9]\d\d[2-9]\d{6})$);@output_buffer.safe_append='
+...                               ^):
+  app/views/text_apps/_form.html.erb:16: syntax error, unexpected '^'
+  app/views/text_apps/_form.html.erb:16: syntax error, unexpected $undefined, expecting ')'
+  app/views/text_apps/_form.html.erb:16: syntax error, unexpected $undefined, expecting ')'
+  app/views/text_apps/_form.html.erb:16: `$)' is not allowed as a global variable name
+  app/views/text_apps/_form.html.erb:16: syntax error, unexpected end-of-input, expecting ':'
+  app/views/text_apps/new.html.erb:3:in `_app_views_text_apps_new_html_erb___1336526270275270885_70116824278560'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (168.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (125.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (280.8ms)
+
+
+Started GET "/text_apps/new" for fe80::1%lo0 at 2016-01-28 08:43:53 -0600
+
+
+Started GET "/text_apps/" for fe80::1%lo0 at 2016-01-28 08:44:04 -0600
+
+
+Started GET "/text_apps/" for fe80::1%lo0 at 2016-01-28 08:44:23 -0600
+
+
+Started GET "/text_apps/index" for fe80::1%lo0 at 2016-01-28 08:44:29 -0600
+
+
+Started GET "/text_apps/index" for fe80::1%lo0 at 2016-01-28 08:44:30 -0600
+
+
+Started GET "/text_apps/index" for fe80::1%lo0 at 2016-01-28 08:44:40 -0600
+
+
+Started GET "/text_apps/index" for fe80::1%lo0 at 2016-01-28 08:45:40 -0600
+
+
+Started GET "/text_apps/new" for fe80::1%lo0 at 2016-01-28 08:46:17 -0600
+
+
+Started GET "/text_apps/4" for ::1 at 2016-01-28 08:47:13 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mTextApp Load (1.4ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "4"]]
+  Rendered text_apps/show.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 1001ms (Views: 821.5ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/text_apps/4/edit" for ::1 at 2016-01-28 08:47:32 -0600
+Processing by TextAppsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mTextApp Load (0.5ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered text_apps/_form.html.erb (100.5ms)
+  Rendered text_apps/edit.html.erb within layouts/application (129.3ms)
+Completed 200 OK in 244ms (Views: 241.6ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/text_apps/4" for ::1 at 2016-01-28 08:47:55 -0600
+Processing by TextAppsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wbxrKk/k0UC6f9Nv0g6jTsbRDkatvbCx9xZPGL9spibZ8aBvnJvqsQxWNRVCqVCxOM+D5x631kh/H8hdDg8JfA==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"Johnny"}, "commit"=>"Update Text app", "id"=>"4"}
+  [1m[36mTextApp Load (0.7ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/4
+Completed 302 Found in 7ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/text_apps/4" for ::1 at 2016-01-28 08:47:55 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mTextApp Load (0.4ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "4"]]
+  Rendered text_apps/show.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 151ms (Views: 148.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/text_apps/4/edit" for ::1 at 2016-01-28 08:48:10 -0600
+Processing by TextAppsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mTextApp Load (0.4ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered text_apps/_form.html.erb (4.8ms)
+  Rendered text_apps/edit.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 124ms (Views: 121.3ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/text_apps/4" for ::1 at 2016-01-28 08:48:27 -0600
+Processing by TextAppsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Vz5W4CUjJQ35eK7OWv3GWQBg//WAAgsY8ZVncVHLkJtPc52l9lwe/E9RSLTKWjWm/n5yVDMIbeF5nOA04Kg/wQ==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"Heyooo"}, "commit"=>"Update Text app", "id"=>"4"}
+  [1m[36mTextApp Load (0.4ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (6.9ms)[0m  [1mUPDATE "text_apps" SET "name" = $1, "updated_at" = $2 WHERE "text_apps"."id" = $3[0m  [["name", "Heyooo"], ["updated_at", "2016-01-28 14:48:27.854665"], ["id", 4]]
+  [1m[35m (24.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/4
+Completed 302 Found in 61ms (ActiveRecord: 32.2ms)
+
+
+Started GET "/text_apps/4" for ::1 at 2016-01-28 08:48:27 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTextApp Load (0.3ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "4"]]
+  Rendered text_apps/show.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 181ms (Views: 178.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-28 08:49:10 -0600
+Processing by TextAppsController#index as HTML
+  [1m[36mTextApp Load (0.5ms)[0m  [1mSELECT "text_apps".* FROM "text_apps"[0m
+  Rendered text_apps/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 171ms (Views: 169.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-28 08:49:13 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (3.3ms)
+  Rendered text_apps/new.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 103ms (Views: 101.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-28 08:49:28 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kfLsp70SYbtll/5bQdKkEh6NGSEhAq0iAlf8WOCV4o2Jvyfibm1aStO+GCHRdVft4JOUgJIIy9uKXnsdUfZN1w==", "text_app"=>{"phone_num"=>"+16143269262", "name"=>"Hello"}, "commit"=>"Create Text app"}
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (46.0ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["phone_num", "+16143269262"], ["name", "Hello"], ["created_at", "2016-01-28 14:49:28.656413"], ["updated_at", "2016-01-28 14:49:28.656413"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/22
+Completed 302 Found in 1076ms (ActiveRecord: 49.3ms)
+
+
+Started GET "/text_apps/22" for ::1 at 2016-01-28 08:49:29 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mTextApp Load (0.3ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "22"]]
+  Rendered text_apps/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 171ms (Views: 168.3ms | ActiveRecord: 0.3ms)
