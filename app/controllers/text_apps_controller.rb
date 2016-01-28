@@ -10,20 +10,25 @@ class TextAppsController < ApplicationController
   # GET /text_apps/1
   # GET /text_apps/1.json
   def show
+  	@key = params[:id][:phone_num]
   end
 
   # GET /text_apps/new
+  # maps phone number and name to the database:
   def new
     @text_app = TextApp.new
   end
 
+
   # GET /text_apps/1/edit
   def edit
   end
+  
 
   # POST /text_apps
   # POST /text_apps.json
   def create
+    
     @text_app = TextApp.new(text_app_params)
 
     respond_to do |format|
@@ -35,8 +40,27 @@ class TextAppsController < ApplicationController
         format.json { render json: @text_app.errors, status: :unprocessable_entity }
       end
     end
-  end
+    
+    
+		account_sid = "PN72b767764ed66cdc6ebb96f683a60904"
+		auth_token = "7b6baaf5e68b5cfcc7d989a731db89f4"
+		client = Twilio::REST::Client.new account_sid, auth_token
+    key = params[:id][:phone_num]
+		from = "+16144271054" # My definite number
+		client.account.messages.create(
+    		:from => from,
+    		:to => key,
+    		:body => "Hey, Monkey party at 6PM. Bring Bananas!"
+  		)
+    end
 
+#Post the number to the WWW
+	def post
+
+	end	
+		
+		
+		
   # PATCH/PUT /text_apps/1
   # PATCH/PUT /text_apps/1.json
   def update
@@ -48,7 +72,7 @@ class TextAppsController < ApplicationController
         format.html { render :edit }
         format.json { render json: @text_app.errors, status: :unprocessable_entity }
       end
-    end
+    end    
   end
 
   # DELETE /text_apps/1
