@@ -21,8 +21,7 @@ class TextAppsController < ApplicationController
 
 
   # GET /text_apps/1/edit
-  def edit
-  	
+  def edit	
   end
 
 
@@ -36,26 +35,26 @@ class TextAppsController < ApplicationController
 			client = Twilio::REST::Client.new account_sid, auth_token
 	  	key = @text_app.phone_num
 	  	outof = "+16144271054" # My definite number
-    	respond_to do |format|
-      	if @text_app.save 
-        	format.html { redirect_to @text_app, notice: 'Your text is on the way! Want to try another number?' }
-        	format.json { render :new, status: :created, location: @text_app }
-        	client.account.messages.create(
-    				:from => outof,
-    				:to => key,
-    				:body => "Hey!  I learned a lot about how parameters get passed to my controllers and .",
-    				)
-      	else
-        	format.html { render :new }
-        	format.json { render json: @text_app.errors, status: :unprocessable_entity }
-      	end
-      end
-      rescue Twilio::REST::RequestError => e
-				redirect_to "/text_apps/new", notice: 'This number wasn\'t recognized by Twilio.  Please try again!'
-    	end
-    end
-		
-		
+    		respond_to do |format|
+      		if @text_app.save 
+        		format.html { redirect_to @text_app, notice: 'Your text is on the way! Want to try another number?' }
+
+  	      	client.account.messages.create(
+    					:from => outof,
+    					:to => key,
+    					:body => "Hey Katie!  Hope you're having a great day!",
+    					)
+   	  	 	else
+    	    	format.html { render :new }
+      	  	format.json { render json: @text_app.errors, status: :unprocessable_entity }
+      		end
+    	  end	
+    rescue Twilio::REST::RequestError => e
+      redirect_to '/text_apps/new'
+			flash[:notice] = "Twilio didn't recognize this as a valid number. Please try a different number."
+		end
+
+	end
 		
   # PATCH/PUT /text_apps/1
   # PATCH/PUT /text_apps/1.json

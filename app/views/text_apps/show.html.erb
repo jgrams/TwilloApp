@@ -1,24 +1,6 @@
 <p id="notice"><%= notice %></p>
-
 <p>
-  <strong>The number that got sent to Twillo:</strong>
-  <%= @text_app.phone_num %>
+  <h1>The number that got sent to Twillo:</h1>
+  <h2><%= @text_app.phone_num %></h2>
 </p>
-
-<p>
-  <strong>Name:</strong>
-  <%= @text_app.name %>
-</p>
-
-<p>TO BE CUT: <%= %> html output</p>
-
-<p>@text_app:</p>
-<%= debug @text_app %>
-
-<p>@key:</p>
-<%= @key %>
-
-
-
-<%= link_to 'Edit', edit_text_app_path(@text_app) %> |
-<%= link_to 'Back', text_apps_path %>
+<%= link_to 'Try out a New Number', '/text_apps/new' %>

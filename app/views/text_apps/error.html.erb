@@ -1,0 +1,12 @@
+<h1>TextApps#error</h1>
+<p>Find me in app/views/text_apps/error.html.erb</p>
+
+<%= form_for(@text_app) do |f| %>
+  <% if @text_app.errors.any? %>
+    <div id="error_explanation">
+      <% @text_app.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
