@@ -22,42 +22,38 @@ class TextAppsController < ApplicationController
 
   # GET /text_apps/1/edit
   def edit
+  	
   end
-  
+
 
   # POST /text_apps
   # POST /text_apps.json
   def create
-    
-    @text_app = TextApp.new(text_app_params)
-
-    respond_to do |format|
-      if @text_app.save
-        format.html { redirect_to @text_app, notice: 'Text app was successfully created.' }
-        format.json { render :show, status: :created, location: @text_app }
-      else
-        format.html { render :new }
-        format.json { render json: @text_app.errors, status: :unprocessable_entity }
+		begin
+    	@text_app = TextApp.new(text_app_params)
+			account_sid = "ACf74fe283ec05664c5cc922e34831d60e"
+			auth_token = "7b6baaf5e68b5cfcc7d989a731db89f4"
+			client = Twilio::REST::Client.new account_sid, auth_token
+	  	key = @text_app.phone_num
+	  	outof = "+16144271054" # My definite number
+    	respond_to do |format|
+      	if @text_app.save 
+        	format.html { redirect_to @text_app, notice: 'Your text is on the way! Want to try another number?' }
+        	format.json { render :new, status: :created, location: @text_app }
+        	client.account.messages.create(
+    				:from => outof,
+    				:to => key,
+    				:body => "Hey!  I learned a lot about how parameters get passed to my controllers and .",
+    				)
+      	else
+        	format.html { render :new }
+        	format.json { render json: @text_app.errors, status: :unprocessable_entity }
+      	end
       end
+      rescue Twilio::REST::RequestError => e
+				redirect_to "/text_apps/new", notice: 'This number wasn\'t recognized by Twilio.  Please try again!'
+    	end
     end
-    
-		account_sid = "ACf74fe283ec05664c5cc922e34831d60e"
-		auth_token = "7b6baaf5e68b5cfcc7d989a731db89f4"
-		client = Twilio::REST::Client.new account_sid, auth_token
-	  key = @text_app.phone_num
-	  outof = "+16144271054" # My definite number
-		client.account.messages.create(
-    			:from => outof,
-    			:to => key,
-    			:body => "Hey!  I learned a lot from making this app.  Most of all, I should go slow.",
-    			)
-    
-	end
-
-#Post the number to the WWW
-	def post
-
-	end	
 		
 		
 		
