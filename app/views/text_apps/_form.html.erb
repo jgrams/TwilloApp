@@ -1,18 +1,16 @@
 <%= form_for(@text_app) do |f| %>
-  <% if @text_app.errors.any? %>
-    <div id="error_explanation">
-      <% @text_app.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label "Phone Number: " %><br>
-    <%= f.text_field :phone_num %>
+	<% if @text_app.errors.any? %>
+  	<% @text_app.errors.messages.each do |message| %>
+    	<div class="message"><%= message.last.last.html_safe %></div>
+  	<% end %>
+<% end %>
+  
+   <h3><%= f.label "Phone Number:"%></h3>
+   <div class="form-actions">
+   <%= f.text_field :phone_num %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
+  <br>
+  <div class="">
+    <%= f.submit 'Text Me!'%>
   </div>
 <% end %>

@@ -4295,3 +4295,2875 @@ Processing by TextAppsController#create as HTML
   Rendered text_apps/_form.html.erb (2.9ms)
   Rendered text_apps/new.html.erb within layouts/application (5.2ms)
 Completed 200 OK in 135ms (Views: 127.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:24:10 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TextAppsController#index as HTML
+  [1m[35mTextApp Load (1.8ms)[0m  SELECT "text_apps".* FROM "text_apps"
+  Rendered text_apps/index.html.erb within layouts/application (71.7ms)
+Completed 200 OK in 8367ms (Views: 8322.6ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/application.self-09d53b1dfe0c3d2d55ee97dce49a9f2b126874b7fa4717801a22de5453729614.css?body=1" for ::1 at 2016-01-29 05:24:19 -0600
+
+
+Started GET "/assets/text_apps.self-8a48603ed59a58e57d39d24679c3eded3ae7fd00c264e0c38a797cff8c7f57ed.css?body=1" for ::1 at 2016-01-29 05:24:19 -0600
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 05:24:30 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (91.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (124.3ms)
+Completed 200 OK in 262ms (Views: 260.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 05:24:45 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 4238ms (Views: 4236.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/text_apps.self-35775588d4eeb5350a6d447ce84d50397ffee56087a73edae793c2046eed06f7.css?body=1" for ::1 at 2016-01-29 05:24:50 -0600
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:25:50 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wza4yJU43bIzaYls5sfc9BQe62a54RGfh4zgSbZYUjjbe3ONRkfmQ4VAbxZ2YC8L6gBmxwrrd2YPhWcMBzv9Yg==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (3.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 129ms (Views: 123.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:25:53 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NBsJmKqshlgWRk1oxfunfmY5UihamlyJEzqktW85r8AsVsLdedO9qaBvqxJVXFSBmCffiemQOnCbMyPw3loAmg==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.2ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (7.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 90ms (Views: 79.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:27:18 -0600
+Processing by TextAppsController#index as HTML
+  [1m[36mTextApp Load (1.6ms)[0m  [1mSELECT "text_apps".* FROM "text_apps"[0m
+  Rendered text_apps/index.html.erb within layouts/application (60.4ms)
+Completed 200 OK in 3551ms (Views: 3548.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/text_apps.self-de3c11cc61a051c26ec6044bb97c50ea4a3b3a1ad9839c09662e793bb293a8bd.css?body=1" for ::1 at 2016-01-29 05:27:22 -0600
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:27:31 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NBsJmKqshlgWRk1oxfunfmY5UihamlyJEzqktW85r8AsVsLdedO9qaBvqxJVXFSBmCffiemQOnCbMyPw3loAmg==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[35m (2.3ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  Rendered text_apps/_form.html.erb (6.1ms)
+  Rendered text_apps/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 154ms (Views: 145.2ms | ActiveRecord: 3.4ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:27:33 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3r/cpyPbxHORxCEbYoaAnBH15PLQ6kPEdmI/M3/6fLvG8hfi8KT/giftx2HyIXNj7+tpU2PgJT3+a7h2zpnT4Q==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36m (1.1ms)[0m  [1mROLLBACK[0m
+  Rendered text_apps/_form.html.erb (5.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 159ms (Views: 152.3ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:27:34 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NcQo5d9fFFsmttqvUdx03dTuNGEeT2BRBma/7hZBsBgtieOgDCAvqpCfPNXBe4ciKvC5wK1FBqiObzirpyIfQg==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[35m (1.1ms)[0m  BEGIN
+  [1m[36m (1.1ms)[0m  [1mROLLBACK[0m
+  Rendered text_apps/_form.html.erb (6.1ms)
+  Rendered text_apps/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 99ms (Views: 91.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:27:36 -0600
+Processing by TextAppsController#index as HTML
+  [1m[35mTextApp Load (1.8ms)[0m  SELECT "text_apps".* FROM "text_apps"
+  Rendered text_apps/index.html.erb within layouts/application (95.1ms)
+Completed 200 OK in 188ms (Views: 182.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:28:34 -0600
+Processing by TextAppsController#index as HTML
+  [1m[36mTextApp Load (0.9ms)[0m  [1mSELECT "text_apps".* FROM "text_apps"[0m
+  Rendered text_apps/index.html.erb within layouts/application (52.0ms)
+Completed 200 OK in 383ms (Views: 381.7ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:28:42 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3r/cpyPbxHORxCEbYoaAnBH15PLQ6kPEdmI/M3/6fLvG8hfi8KT/giftx2HyIXNj7+tpU2PgJT3+a7h2zpnT4Q==", "text_app"=>{"phone_num"=>"5555132"}, "commit"=>"Text Me!"}
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
+  Rendered text_apps/_form.html.erb (6.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 157ms (Views: 149.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:29:38 -0600
+Processing by TextAppsController#index as HTML
+  [1m[35mTextApp Load (1.1ms)[0m  SELECT "text_apps".* FROM "text_apps"
+  Rendered text_apps/index.html.erb within layouts/application (55.4ms)
+Completed 200 OK in 241ms (Views: 239.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 05:34:06 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.2ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 3485ms (Views: 3483.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/text_apps.self-b3c5ac4f57373451ee96a0fa1ba8bf285d56413082a92f4a8888351d585ad567.css?body=1" for ::1 at 2016-01-29 05:34:10 -0600
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 05:34:24 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (22.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 133ms (Views: 132.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 05:34:47 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 3561ms (Views: 3560.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/text_apps.self-4238364bec65500c65ded983da47d1c9cb1a11de1dd22d1181da2d607dad7b33.css?body=1" for ::1 at 2016-01-29 05:34:50 -0600
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 05:37:02 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 3370ms (Views: 3369.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/text_apps.self-2f13ec89369d6c99e0208efa26c6ae0d8b37013af5d2eb436152786ecfc8cc05.css?body=1" for ::1 at 2016-01-29 05:37:06 -0600
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 05:40:56 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (8.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 3953ms (Views: 3952.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/text_apps.self-605cf88fb9a928a53a83260f6a34010935540299cd0b9c75323c5726501c3e8e.css?body=1" for ::1 at 2016-01-29 05:41:00 -0600
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:41:10 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AoXgderSuOC18+rnceWSxVk+DS52Bopg3cGtB/Jc2KUayCswOa2DEQPaDJ3hQmE6pyCAj8UM7JlVyCpCQz93/w==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (42.3ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "6143269262"], ["created_at", "2016-01-29 11:41:10.337835"], ["updated_at", "2016-01-29 11:41:10.337835"]]
+  [1m[36m (49.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/120
+Completed 302 Found in 1256ms (ActiveRecord: 93.9ms)
+
+
+Started GET "/text_apps/120" for ::1 at 2016-01-29 05:41:11 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[35mTextApp Load (0.5ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 120]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "120"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 266ms (Views: 86.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/text_apps/120" for ::1 at 2016-01-29 05:41:41 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[35mTextApp Load (0.8ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 120]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "120"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 74ms (Views: 71.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/text_apps/120" for ::1 at 2016-01-29 05:42:16 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[35mTextApp Load (1.1ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 120]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "120"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3113ms (Views: 3110.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/text_apps.self-ef4f3e870f15ffaf9ff912df4c5d69b2d326a607e8ae0c7fdeae908a326293db.css?body=1" for ::1 at 2016-01-29 05:42:20 -0600
+
+
+Started GET "/text_apps/120" for ::1 at 2016-01-29 05:42:55 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[35mTextApp Load (0.8ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 120]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "120"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3270ms (Views: 3267.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/text_apps.self-4bacc9951f5823e67b64a28e7f2dc78425261fc8687b2b7bab922d03b96b6a20.css?body=1" for ::1 at 2016-01-29 05:42:59 -0600
+
+
+Started GET "/text_apps/120" for ::1 at 2016-01-29 05:43:17 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[35mTextApp Load (1.4ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 120]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "120"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3295ms (Views: 3291.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/text_apps.self-2ce9c5a61ae523468d819f30556b8b945db586338ff9c21143ede2327cb749a6.css?body=1" for ::1 at 2016-01-29 05:43:21 -0600
+
+
+Started GET "/text_apps/120" for ::1 at 2016-01-29 05:44:40 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[35mTextApp Load (1.5ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 120]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "120"]]
+  Rendered text_apps/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 70ms (Views: 66.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/text_apps/120" for ::1 at 2016-01-29 05:44:45 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[35mTextApp Load (0.7ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 120]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "120"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 81ms (Views: 78.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/text_apps/120" for ::1 at 2016-01-29 05:46:22 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[35mTextApp Load (1.3ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 120]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "120"]]
+  Rendered text_apps/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 66ms (Views: 62.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/text_apps/120" for ::1 at 2016-01-29 05:46:44 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"120"}
+  [1m[35mTextApp Load (0.8ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 120]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "120"]]
+  Rendered text_apps/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 65ms (Views: 62.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2016-01-29 05:46:49 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 64ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:46:55 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IClIjqZeW92eB3MckKm2Cx6rXqSC3b8QpdxdZBLZ6bs4ZIPLdSFgLCgulWYADkX04LXTBTHX2ekt1doho7pG4Q==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "6143269262"], ["created_at", "2016-01-29 11:46:55.675794"], ["updated_at", "2016-01-29 11:46:55.675794"]]
+  [1m[35m (33.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/121
+Completed 302 Found in 608ms (ActiveRecord: 35.1ms)
+
+
+Started GET "/text_apps/121" for ::1 at 2016-01-29 05:46:56 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"121"}
+  [1m[36mTextApp Load (0.3ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 121]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "121"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 05:47:03 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 62ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:47:07 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DS6HWmLzPVTcZIh/8JZ5cXyCgIwKhzUMnfs0qJ7m2XoVY0wfsYwGpWpNbgVgMYqOgpwNLbmNU/UV8rPtL4V2IA==", "text_app"=>{"phone_num"=>"555555"}, "commit"=>"Text Me!"}
+  [1m[36m (1.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (46.1ms)
+  Rendered text_apps/new.html.erb within layouts/application (55.2ms)
+Completed 200 OK in 155ms (Views: 144.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:47:33 -0600
+Processing by TextAppsController#index as HTML
+  [1m[36mTextApp Load (1.4ms)[0m  [1mSELECT "text_apps".* FROM "text_apps"[0m
+  Rendered text_apps/index.html.erb within layouts/application (89.0ms)
+Completed 200 OK in 138ms (Views: 135.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:47:37 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DS6HWmLzPVTcZIh/8JZ5cXyCgIwKhzUMnfs0qJ7m2XoVY0wfsYwGpWpNbgVgMYqOgpwNLbmNU/UV8rPtL4V2IA==", "text_app"=>{"phone_num"=>"555555"}, "commit"=>"Text Me!"}
+  [1m[35m (5.7ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mROLLBACK[0m
+  Rendered text_apps/_form.html.erb (5.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 132ms (Views: 117.4ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:50:09 -0600
+Processing by TextAppsController#index as HTML
+  [1m[35mTextApp Load (0.9ms)[0m  SELECT "text_apps".* FROM "text_apps"
+  Rendered text_apps/index.html.erb within layouts/application (55.9ms)
+Completed 200 OK in 235ms (Views: 233.6ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:50:14 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DS6HWmLzPVTcZIh/8JZ5cXyCgIwKhzUMnfs0qJ7m2XoVY0wfsYwGpWpNbgVgMYqOgpwNLbmNU/UV8rPtL4V2IA==", "text_app"=>{"phone_num"=>"555555"}, "commit"=>"Text Me!"}
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (2.2ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (36.1ms)
+  Rendered text_apps/new.html.erb within layouts/application (40.5ms)
+Completed 200 OK in 133ms (Views: 97.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 05:50:45 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (3.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 72ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 05:51:01 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 64ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:51:07 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Li6lD5SBFGoZZoe7vItpTeTqImh6cU1lJq7HHQj9O9k2Y25KR/4vm69PYcEsLJqyGvSvycl7K5yup0BYuZ6Ugw==", "text_app"=>{"phone_num"=>"44656"}, "commit"=>"Text Me!"}
+  [1m[36m (1.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (2.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 103ms (Views: 77.7ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:51:19 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MiJpR7oKp7wPnJTWDpxFc4+HWbGfWoIrrYvx5xKweTEhULgzZcRb0YXlCnInYLqMCCQx3V3DPEmv6iCLSluvg==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (3.1ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 83ms (Views: 75.9ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:51:24 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r7NtZJuWsNcV+U8jOw/Oz/rhOljNkcyVfhWXpOW5ypm3/qYhSOmLJqPQqVmrqD0wBP+3+X6bqmz2HBDhVNplww==", "text_app"=>{"phone_num"=>"asdfasdfasdf"}, "commit"=>"Text Me!"}
+  [1m[36m (1.9ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (2.1ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 141ms (Views: 107.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:52:54 -0600
+Processing by TextAppsController#index as HTML
+  [1m[36mTextApp Load (17.0ms)[0m  [1mSELECT "text_apps".* FROM "text_apps"[0m
+  Rendered text_apps/index.html.erb within layouts/application (82.6ms)
+Completed 200 OK in 127ms (Views: 109.3ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:53:11 -0600
+Processing by TextAppsController#index as HTML
+  [1m[35mTextApp Load (2.0ms)[0m  SELECT "text_apps".* FROM "text_apps"
+  Rendered text_apps/index.html.erb within layouts/application (92.8ms)
+Completed 200 OK in 154ms (Views: 150.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:57:01 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 176ms (Views: 175.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:57:48 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 77ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:58:02 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:59:10 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:59:13 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Li6lD5SBFGoZZoe7vItpTeTqImh6cU1lJq7HHQj9O9k2Y25KR/4vm69PYcEsLJqyGvSvycl7K5yup0BYuZ6Ugw==", "text_app"=>{"phone_num"=>"44656"}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (2.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.4ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:21: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/text_apps/_form.html.erb:21: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273981784200'
+  app/controllers/text_apps_controller.rb:49:in `block (2 levels) in create'
+  app/controllers/text_apps_controller.rb:39:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (194.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (3.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (180.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (448.1ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 05:59:39 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 65ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 05:59:41 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 05:59:47 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JW6OpqjwEiMnzOVDRo5I5IFIouWwg3pvcuH6yH6/63Q9I0Xje48p0pHlAznWKbsbf1YvRAOJHJb66H2Nz9xELg==", "text_app"=>{"phone_num"=>"3255842"}, "commit"=>"Text Me!"}
+  [1m[36m (2.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (39.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (79.7ms)
+Completed 500 Internal Server Error in 98ms (ActiveRecord: 2.6ms)
+
+ActionView::Template::Error (undefined local variable or method `message' for #<#<Class:0x007fd3db4f30d8>:0x007fd3df0192c0>):
+    2:   <% if @text_app.errors.any? %>
+    3:     <div id="container">
+    4: 
+    5:         <h2><%= message %></h2>
+    6:       </ul>
+    7:     </div>
+    8:   <% end %>
+  app/views/text_apps/_form.html.erb:5:in `block in _app_views_text_apps__form_html_erb___1754887231222127759_70273984791360'
+  app/views/text_apps/_form.html.erb:1:in `_app_views_text_apps__form_html_erb___1754887231222127759_70273984791360'
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273981784200'
+  app/controllers/text_apps_controller.rb:49:in `block (2 levels) in create'
+  app/controllers/text_apps_controller.rb:39:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (184.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (138.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (352.0ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 06:00:06 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 74ms (Views: 73.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:00:08 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 82ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:00:11 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Qb8JdgcWyNuuh/V5TJpKufLAIYPw1jJ+kEiMm8w9qRVZ8sIz1GnzKhiuEwPcPblGDN6sIkPcVIcYQQvefV4GTw==", "text_app"=>{"phone_num"=>"54133"}, "commit"=>"Text Me!"}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (8.2ms)
+  Rendered text_apps/new.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 127ms (Views: 84.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 06:01:55 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 156ms (Views: 151.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:01:58 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (4.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 103ms (Views: 93.4ms | ActiveRecord: 3.7ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:02:01 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1au0Q10AXj92HC+TwcKRPr8kksfg17XM1lnG3li8zu/N5n8Gjn9lzsA1yelRZWLBQTofZlPd0zVeUEGb6d9htQ==", "text_app"=>{"phone_num"=>"6542"}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (2.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 119ms (Views: 70.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 06:02:18 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 69ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:02:19 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 76ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:02:23 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7QQb0PTttlehm+KPq/FKydYQSNuuwsCJBs4JnG7zUPL1SdCVJ5KNpheyBPU7Vrk2KA7Feh3IpnCOx47Z35D/qA==", "text_app"=>{"phone_num"=>"asdf"}, "commit"=>"Text Me!"}
+  [1m[36m (2.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.1ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (7.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (41.7ms)
+Completed 200 OK in 136ms (Views: 125.8ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 06:03:02 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 91ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2016-01-29 06:03:10 -0600
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (54.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (285.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (198.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (403.7ms)
+
+
+Started GET "/" for ::1 at 2016-01-29 06:03:16 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 101ms (Views: 99.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:03:22 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rz2T9DX9CmQzDIy9u5qRNvX5pKvghpMr07v5wwubWW63cFix5oIxlYUlascrPWLJC+cpClOM9dJbsn6Guvj2NA==", "text_app"=>{"phone_num"=>"12341234123412341234"}, "commit"=>"Text Me!"}
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (2.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 110ms (Views: 102.1ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:04:57 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G4SFS/JPlJn/Qg4ZvSsbbCD7j16VIk1mip43hDbeMFYDyU4OITCvaElr6GMtjOiT3uUC/yYoK58Cl7DBh72fDA==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "6143269262"], ["created_at", "2016-01-29 12:04:57.202426"], ["updated_at", "2016-01-29 12:04:57.202426"]]
+  [1m[36m (15.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/122
+Completed 302 Found in 983ms (ActiveRecord: 16.5ms)
+
+
+Started GET "/text_apps/122" for ::1 at 2016-01-29 06:04:58 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"122"}
+  [1m[35mTextApp Load (0.3ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 122]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "122"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 42ms (Views: 38.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:05:09 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.3ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:05:19 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M1xmOjrOCOz4N9S1jUCExJzRkyfdcdllPNSjG7IjXIErEa1/6bEzHU4eMs8d53c7Ys8ehm57v5y03SReA0Dz2w==", "text_app"=>{"phone_num"=>"*+16143269292"}, "commit"=>"Text Me!"}
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "16143269292"], ["created_at", "2016-01-29 12:05:19.170935"], ["updated_at", "2016-01-29 12:05:19.170935"]]
+  [1m[35m (30.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 431ms (ActiveRecord: 31.7ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:05:19 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.1ms)
+  Rendered text_apps/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 77ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:05:30 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7btaTJxMDyBNPyvx2AhIcb3VXT0JyoY8aGwFGLKC95/19pEJTzM00fsWzYtIr7uOQ8vQnLrA4MXgZYJdA+FYxQ==", "text_app"=>{"phone_num"=>"123412341"}, "commit"=>"Text Me!"}
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (4.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 77ms (Views: 70.0ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:05:40 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7btaTJxMDyBNPyvx2AhIcb3VXT0JyoY8aGwFGLKC95/19pEJTzM00fsWzYtIr7uOQ8vQnLrA4MXgZYJdA+FYxQ==", "text_app"=>{"phone_num"=>"12341234184"}, "commit"=>"Text Me!"}
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.8ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (2.2ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 98ms (Views: 90.3ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:05:47 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7btaTJxMDyBNPyvx2AhIcb3VXT0JyoY8aGwFGLKC95/19pEJTzM00fsWzYtIr7uOQ8vQnLrA4MXgZYJdA+FYxQ==", "text_app"=>{"phone_num"=>"12141234184"}, "commit"=>"Text Me!"}
+  [1m[36m (6.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (3.9ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (3.3ms)
+  Rendered text_apps/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 98ms (Views: 82.1ms | ActiveRecord: 10.6ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:05:58 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7btaTJxMDyBNPyvx2AhIcb3VXT0JyoY8aGwFGLKC95/19pEJTzM00fsWzYtIr7uOQ8vQnLrA4MXgZYJdA+FYxQ==", "text_app"=>{"phone_num"=>"2441234184"}, "commit"=>"Text Me!"}
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (2.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 86ms (Views: 79.6ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:06:12 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7btaTJxMDyBNPyvx2AhIcb3VXT0JyoY8aGwFGLKC95/19pEJTzM00fsWzYtIr7uOQ8vQnLrA4MXgZYJdA+FYxQ==", "text_app"=>{"phone_num"=>"16143269262"}, "commit"=>"Text Me!"}
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "16143269262"], ["created_at", "2016-01-29 12:06:12.890228"], ["updated_at", "2016-01-29 12:06:12.890228"]]
+  [1m[36m (15.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/124
+Completed 302 Found in 544ms (ActiveRecord: 17.6ms)
+
+
+Started GET "/text_apps/124" for ::1 at 2016-01-29 06:06:13 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"124"}
+  [1m[35mTextApp Load (0.3ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 124]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "124"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 97ms (Views: 95.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:06:18 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:06:28 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k6WSi3e+aWG6B9+uMCAQ61zR8PWr7qnr0OFxj2gKLNSL6FnOpMFSkAwuOdSgh+MUos99VBjkzxJY6PbK2WmDjg==", "text_app"=>{"phone_num"=>"6843269262"}, "commit"=>"Text Me!"}
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "6843269262"], ["created_at", "2016-01-29 12:06:28.529667"], ["updated_at", "2016-01-29 12:06:28.529667"]]
+  [1m[35m (52.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 506ms (ActiveRecord: 54.2ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:06:29 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 95ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:06:35 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8CAX4gQHtpQqsO1GSTWJJlixGqU/Cnbip0SA8AiAIC/obdyn13iNZZyZCzzZknrZpq+XBIwAEBsvTQe1ueOPdQ==", "text_app"=>{"phone_num"=>"6748596292"}, "commit"=>"Text Me!"}
+  [1m[36m (5.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "6748596292"], ["created_at", "2016-01-29 12:06:35.648508"], ["updated_at", "2016-01-29 12:06:35.648508"]]
+  [1m[36m (15.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 304ms (ActiveRecord: 21.8ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:06:35 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (4.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 114ms (Views: 112.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:06:49 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LDgb1VbDKzaNCV5TiZM7gw9+7Fg9X3P1LX4hpbdnFCk0ddCQhbwQxzsguCkZNMh88WBh+Y5VFQyld6bgBgS7cw==", "text_app"=>{"phone_num"=>"+16489523564"}, "commit"=>"Text Me!"}
+  [1m[35m (3.6ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "16489523564"], ["created_at", "2016-01-29 12:06:49.251194"], ["updated_at", "2016-01-29 12:06:49.251194"]]
+  [1m[35m (30.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 302ms (ActiveRecord: 34.7ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:06:49 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.3ms)
+  Rendered text_apps/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 84ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:07:03 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pFkvxD53DiltHgYqcLpOLvxDARAAnvvMl75KF91dyK68FOSB7Qg12Ns34FDgHb3RAl2MsbOUnTUft81SbD5n9A==", "text_app"=>{"phone_num"=>"19465829797"}, "commit"=>"Text Me!"}
+  [1m[36m (1.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "19465829797"], ["created_at", "2016-01-29 12:07:03.901586"], ["updated_at", "2016-01-29 12:07:03.901586"]]
+  [1m[36m (6.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 294ms (ActiveRecord: 8.4ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:07:04 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (11.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 95ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:07:18 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j1ACi8VUpiXjc3vOPrjxIR1ykzjYT/IJpy9usy325h6XHcnOFiud1FVanbSuHwLe42wemWtFlPAvJun2nJVJRA==", "text_app"=>{"phone_num"=>"1614-326-9262"}, "commit"=>"Text Me!"}
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "16143269262"], ["created_at", "2016-01-29 12:07:18.223665"], ["updated_at", "2016-01-29 12:07:18.223665"]]
+  [1m[35m (16.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/129
+Completed 302 Found in 730ms (ActiveRecord: 18.0ms)
+
+
+Started GET "/text_apps/129" for ::1 at 2016-01-29 06:07:18 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"129"}
+  [1m[36mTextApp Load (0.3ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 129]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "129"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 60ms (Views: 58.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:07:24 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:07:30 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H5BzDXlIIGR0IcZz9+0V1Hc2S2CZCxFbgs3Dm+coWagH3bhIqjcblcIIIAlnSuYriSjGwSoBd6IKxETeVkv28g==", "text_app"=>{"phone_num"=>"614.326.9262"}, "commit"=>"Text Me!"}
+  [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (35.2ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "6143269262"], ["created_at", "2016-01-29 12:07:30.508030"], ["updated_at", "2016-01-29 12:07:30.508030"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/130
+Completed 302 Found in 455ms (ActiveRecord: 37.1ms)
+
+
+Started GET "/text_apps/130" for ::1 at 2016-01-29 06:07:30 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"130"}
+  [1m[35mTextApp Load (0.6ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 130]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "130"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 72ms (Views: 68.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:07:32 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 130ms (Views: 125.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:07:42 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MFYnSE8Ite3y+lVNQ9vGK2oxWApAUmqjNAR6EY5aoPQoG+wNnHeOHETTszfTfDXUlC/Vq/NYDFq8Df1UPzkPrg==", "text_app"=>{"phone_num"=>"(614) 326 9262"}, "commit"=>"Text Me!"}
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mSQL (99.1ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "6143269262"], ["created_at", "2016-01-29 12:07:42.917038"], ["updated_at", "2016-01-29 12:07:42.917038"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/131
+Completed 302 Found in 468ms (ActiveRecord: 100.4ms)
+
+
+Started GET "/text_apps/131" for ::1 at 2016-01-29 06:07:43 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"131"}
+  [1m[36mTextApp Load (0.5ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 131]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "131"]]
+  Rendered text_apps/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 92ms (Views: 74.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:08:00 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:10:18 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tyUsvnIBCNAIBW1ul7XNSAZoHkNQnAQvDPC5AcadQDGvaOf7oX4zIb4sixQHEj63+HaT4uOWYtaE+T5Ed/7vaw==", "text_app"=>{"phone_num"=>"6123215"}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (2.5ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (4.3ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 3521ms (Views: 3512.1ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/text_apps.self-16d67c5b4233058e62acee84fe3a3bf1768037539208d88eef84a4b2ff7c37d1.css?body=1" for ::1 at 2016-01-29 06:10:21 -0600
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 06:19:07 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3680ms (Views: 3679.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/text_apps.self-007066f6b3196c9df22b83f551b50a251328d65878a98df1f48395acc070fde9.css?body=1" for ::1 at 2016-01-29 06:19:11 -0600
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:19:14 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 85ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:19:16 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pgfJKGwiZn2MAAG9++22HhXYWFnYXIFDIUQqxZzPOKm+SgJtv11djDop58drSkXh68bV+GtW57qpTa2ALayX8w==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[36m (2.6ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.6ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (6.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 94ms (Views: 84.1ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:20:09 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NYTegx013w39bAppPJTDKIiqTRBUlEWyDc0ZKrqPbqctyRXGzkrk/EtF7BOsMzDXdrTAseeeI0uFxJ5vC+zB/Q==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[36m (1.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "6143269262"], ["created_at", "2016-01-29 12:20:09.991434"], ["updated_at", "2016-01-29 12:20:09.991434"]]
+  [1m[36m (38.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/132
+Completed 302 Found in 1064ms (ActiveRecord: 41.7ms)
+
+
+Started GET "/text_apps/132" for ::1 at 2016-01-29 06:20:11 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"132"}
+  [1m[35mTextApp Load (0.7ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 132]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "132"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 95ms (Views: 78.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:20:18 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 77ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:21:23 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ymcHdDrKBspua4V+OmttwakfDiaV3giACzBiZS4sfJjSKswx6bU9O9hCYwSqzJ4+VwGDhybUbnmDOeUgn0/Twg==", "text_app"=>{"phone_num"=>"5555555555"}, "commit"=>"Text Me!"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "5555555555"], ["created_at", "2016-01-29 12:21:23.925530"], ["updated_at", "2016-01-29 12:21:23.925530"]]
+  [1m[35m (15.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 447ms (ActiveRecord: 16.1ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:21:24 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (7.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:21:59 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pDmkKoHmn/5FBuzTPWylJ4nPWweiUOdau1kKOFri05y8dG9vUpmkD/MvCqmty1bYd9HWphFagaMzUI1964F8xg==", "text_app"=>{"phone_num"=>"asdfasdfa"}, "commit"=>"Text Me!"}
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (4.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (41.7ms)
+Completed 200 OK in 129ms (Views: 121.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:23:44 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:23:48 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p+v2RhtkgXBKfq9lZ9r5g55rlQX1hmf0qAzp5UIgbgG/pj0DyBu6gfxXSR/3fQp8YHUYpEaMAQ0gBW6g80PBWw==", "text_app"=>{"phone_num"=>"asdfasdf"}, "commit"=>"Text Me!"}
+  [1m[36m (5.6ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (5.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 94ms (Views: 81.0ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 06:24:24 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:25:13 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 68ms (Views: 56.5ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:25:20 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SXGUPiaVnMzzYlxBhAbzGGvbki+Lp3V8HMbkrUC5cQdRPF979eqnPUVLujsUoQDnlcUfjjitE4WUz2Po8dreXQ==", "text_app"=>{"phone_num"=>"555555555555"}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.9ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (3.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 130ms (Views: 91.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 06:25:37 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:26:13 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NYTegx013w39bAppPJTDKIiqTRBUlEWyDc0ZKrqPbqctyRXGzkrk/EtF7BOsMzDXdrTAseeeI0uFxJ5vC+zB/Q==", "text_app"=>{"phone_num"=>"asdfasdfa"}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (27.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 142ms (Views: 87.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/new" for ::1 at 2016-01-29 06:26:19 -0600
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (286.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (169.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (6.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (383.0ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 06:27:42 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:27:44 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 83ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:27:47 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ye1oba/asGRZWQCWpZMG/jN0nHkKINxaPf1dRAB+zqvRoKMofKWLle9w5uw1NPUBzWoR2LkquqO19NoBsR1h8Q==", "text_app"=>{"phone_num"=>"asdfa"}, "commit"=>"Text Me!"}
+  [1m[36m (1.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (5.6ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (55.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (60.8ms)
+Completed 200 OK in 152ms (Views: 133.6ms | ActiveRecord: 6.9ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:28:33 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ye1oba/asGRZWQCWpZMG/jN0nHkKINxaPf1dRAB+zqvRoKMofKWLle9w5uw1NPUBzWoR2LkquqO19NoBsR1h8Q==", "text_app"=>{"phone_num"=>"asdfa"}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (4.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 74ms (Views: 53.6ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 06:29:35 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:29:36 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:29:39 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Eq+1bFm16RABZpLyLZLmjtphJdYPhsxZIkAxYIZOFMAK4n4pisrS4bdPdIi9NRVxJH+od7yMqqCqSbYlNy27mg==", "text_app"=>{"phone_num"=>"asdf"}, "commit"=>"Text Me!"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (16.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (18.9ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (wrong number of arguments (0 for 2)):
+    1: <%= form_for(@text_app) do |f| %>
+    2:   <% if @text_app.errors.any? %>
+    3:     <div id="container">
+    4:       <% @text_app.errors.full_message.each do |message| %>
+    5:         <h2><%= message %></h2>
+    6:       <% end %>
+    7:       </ul>
+  app/views/text_apps/_form.html.erb:4:in `block in _app_views_text_apps__form_html_erb___1754887231222127759_70274003897660'
+  app/views/text_apps/_form.html.erb:1:in `_app_views_text_apps__form_html_erb___1754887231222127759_70274003897660'
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273981784200'
+  app/controllers/text_apps_controller.rb:49:in `block (2 levels) in create'
+  app/controllers/text_apps_controller.rb:39:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (185.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (116.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (281.6ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:30:11 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Eq+1bFm16RABZpLyLZLmjtphJdYPhsxZIkAxYIZOFMAK4n4pisrS4bdPdIi9NRVxJH+od7yMqqCqSbYlNy27mg==", "text_app"=>{"phone_num"=>"asdf"}, "commit"=>"Text Me!"}
+  [1m[36m (1.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (43.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (48.6ms)
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 1.9ms)
+
+ActionView::Template::Error (wrong number of arguments (0 for 2)):
+    1: <%= form_for(@text_app) do |f| %>
+    2:   <% if @text_app.errors.any? %>
+    3:     <div id="container">
+    4:       <% @text_app.errors.full_message.each do |message| %>
+    5:         <h2><%= message %></h2>
+    6:       <% end %>
+    7:       </ul>
+  app/views/text_apps/_form.html.erb:4:in `block in _app_views_text_apps__form_html_erb___1754887231222127759_70274003897660'
+  app/views/text_apps/_form.html.erb:1:in `_app_views_text_apps__form_html_erb___1754887231222127759_70274003897660'
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273981784200'
+  app/controllers/text_apps_controller.rb:49:in `block (2 levels) in create'
+  app/controllers/text_apps_controller.rb:39:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (172.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (161.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (380.9ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:34:16 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Eq+1bFm16RABZpLyLZLmjtphJdYPhsxZIkAxYIZOFMAK4n4pisrS4bdPdIi9NRVxJH+od7yMqqCqSbYlNy27mg==", "text_app"=>{"phone_num"=>"asdf"}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (1.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.5ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/text_apps/_form.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273981784200'
+  app/controllers/text_apps_controller.rb:49:in `block (2 levels) in create'
+  app/controllers/text_apps_controller.rb:39:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (168.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (155.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (364.5ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:34:33 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Eq+1bFm16RABZpLyLZLmjtphJdYPhsxZIkAxYIZOFMAK4n4pisrS4bdPdIi9NRVxJH+od7yMqqCqSbYlNy27mg==", "text_app"=>{"phone_num"=>"asdf"}, "commit"=>"Text Me!"}
+  [1m[36m (26.9ms)[0m  [1mBEGIN[0m
+  [1m[35m (6.5ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (5.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (8.8ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 33.4ms)
+
+ActionView::Template::Error (wrong number of arguments (0 for 2)):
+    1: <%= form_for(@text_app) do |f| %>
+    2:   <% if @text_app.errors.any? %>
+    3:     <div id="container">
+    4:       <% @text_app.errors.full_message %>
+    5:      
+    6:       <% end %>
+    7:       
+  app/views/text_apps/_form.html.erb:4:in `block in _app_views_text_apps__form_html_erb___1754887231222127759_70273994768880'
+  app/views/text_apps/_form.html.erb:1:in `_app_views_text_apps__form_html_erb___1754887231222127759_70273994768880'
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273981784200'
+  app/controllers/text_apps_controller.rb:49:in `block (2 levels) in create'
+  app/controllers/text_apps_controller.rb:39:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (180.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (8.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (151.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (348.8ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 06:37:37 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 192ms (Views: 191.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:37:40 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:15: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/text_apps/_form.html.erb:15: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273973385200'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (202.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (133.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (374.3ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:37:41 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (7.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (26.8ms)
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:15: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/text_apps/_form.html.erb:15: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273981784200'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (170.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (145.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (339.9ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:37:52 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (0.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:38:14 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:38:17 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S5t9XI0ej+v0ShhqNHRaLIpRxCMkpnhFKakfjniOoaFT1rYZXmG0GkJj/hCk06nTdE9JgpesHryhoJjLye0O+w==", "text_app"=>{"phone_num"=>"asdf"}, "commit"=>"Text Me!"}
+  [1m[36m (4.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (31.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 154ms (Views: 144.4ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/text_app" for ::1 at 2016-01-29 06:40:25 -0600
+
+ActionController::RoutingError (No route matches [GET] "/text_app"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (238.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (4.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (153.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (344.7ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:41:09 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rFMp0fCocvjo2kS73EQF3GrUJ2lHMHdpmPIsuRx63mO0HuKUI9dJCV7zosFM4/YjlMqqyPQ6EZAQ+6v8rRlxOQ==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "6143269262"], ["created_at", "2016-01-29 12:41:09.736310"], ["updated_at", "2016-01-29 12:41:09.736310"]]
+  [1m[36m (4.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/134
+Completed 302 Found in 689ms (ActiveRecord: 5.5ms)
+
+
+Started GET "/text_apps/134" for ::1 at 2016-01-29 06:41:10 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"134"}
+  [1m[35mTextApp Load (0.3ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 134]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "134"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 93ms (Views: 90.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:41:17 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (3.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:43:40 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TH29xXI+TI5RqsArSr5mvniGc6afRySlm5EB5EkT3ktUMHaAoUF3f+eDJlHaGZVBhpj+ByxNQlwTmIah+HBxEQ==", "text_app"=>{"phone_num"=>"asdf"}, "commit"=>"Text Me!"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/models/text_app.rb:2: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+...t like 555-555-5555' , before :save
+...                               ^):
+  app/models/text_app.rb:2: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  app/controllers/text_apps_controller.rb:33:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (146.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (120.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (267.6ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 06:45:45 -0600
+Processing by TextAppsController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/models/text_app.rb:2: syntax error, unexpected '\n', expecting =>
+/Users/tynanj/workspace/startupinst/TwilloApp/app/models/text_app.rb:13: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/models/text_app.rb:2: syntax error, unexpected '\n', expecting =>
+  app/models/text_app.rb:13: syntax error, unexpected end-of-input, expecting keyword_end
+  app/controllers/text_apps_controller.rb:7:in `index'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (190.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (125.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (292.9ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 06:46:36 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 166ms (Views: 162.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:46:38 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 57ms (Views: 47.9ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:46:43 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OC7KC5ZSB6Hqzi07US0F49zidpWBi8Gezz7jlqc8mzMgYwFORS08UFzny0HBivYcIvz7NDKBp2dHN2TTFl80aQ==", "text_app"=>{"phone_num"=>"6143269"}, "commit"=>"Text Me!"}
+  [1m[35m (0.9ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
+  Rendered text_apps/_form.html.erb (3.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 62ms (Views: 53.7ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:46:58 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l2ugyFN8koP/oXKAiyHejHCE8L2gpQ6+KgQCo7XuAjOPJmuNgAOpckmIlPobhi1zjpp9HBOvaEeiDYXmBI2taQ==", "text_app"=>{"phone_num"=>"2132132132132132"}, "commit"=>"Text Me!"}
+  [1m[35m (2.2ms)[0m  BEGIN
+  [1m[36m (2.5ms)[0m  [1mROLLBACK[0m
+  Rendered text_apps/_form.html.erb (2.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 75ms (Views: 64.4ms | ActiveRecord: 4.7ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:47:37 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"84xP/AFstskdnbrBV1Gnnb0UyFYuPABVAyefFRXDjlvrwYS50hONOKu0XLvH9lRiQwpF9502ZqyLLhhQpKAhAQ==", "text_app"=>{"phone_num"=>"2132132132132132"}, "commit"=>"Text Me!"}
+  [1m[35m (4.7ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mROLLBACK[0m
+  Rendered text_apps/_form.html.erb (2.2ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 67ms (Views: 53.0ms | ActiveRecord: 5.4ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:47:38 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yES41U08xpw1C0BHcIwZkQ+iDIut4vGjADwSB4XzLTnQCXOQnkP9bYMipj3gK+pu8byBKh7ol1qINZVCNJCCYw==", "text_app"=>{"phone_num"=>"2132132132132132"}, "commit"=>"Text Me!"}
+  [1m[35m (1.1ms)[0m  BEGIN
+  [1m[36m (0.9ms)[0m  [1mROLLBACK[0m
+  Rendered text_apps/_form.html.erb (2.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 70ms (Views: 61.5ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:47:39 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gOWueZLyZj6W0cu4Bq8CkSCp7ZJ542wa3ThrPLfwlCCYqGU8QY1dzyD4LcKWCPFu3rdgM8rpCuNVMex5BpM7eg==", "text_app"=>{"phone_num"=>"2132132132132132"}, "commit"=>"Text Me!"}
+  [1m[35m (1.1ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mROLLBACK[0m
+  Rendered text_apps/_form.html.erb (3.3ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 76ms (Views: 62.6ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:47:39 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UQ376X1JK+FaHTt8cnjJZo1RYTh0frBlh43RcdcHv3ZJQDCsrjYQEOw03Qbi3zqZc0/smcd01pwPhFY0ZmQQLA==", "text_app"=>{"phone_num"=>"2132132132132132"}, "commit"=>"Text Me!"}
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
+  Rendered text_apps/_form.html.erb (2.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 72ms (Views: 63.6ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:47:40 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i7WVetASCwei9eY8GKPJ8e+DIzCCQkPo69rf8TO+FbaT+F4/A20w9hTcAEaIBDoOEZ2ukTFIJRFj01i0gt267A==", "text_app"=>{"phone_num"=>"2132132132132132"}, "commit"=>"Text Me!"}
+  [1m[35m (7.7ms)[0m  BEGIN
+  [1m[36m (1.9ms)[0m  [1mROLLBACK[0m
+  Rendered text_apps/_form.html.erb (4.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 78ms (Views: 63.1ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 06:56:27 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 50ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:56:29 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 88ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:56:34 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+oz9ANoWZSPrf+PC5cqwgGKdEhzL3tWN315NcHC0Db7iwTZFCWle0l1WBbh1bUN/nIOfvXjUs3RXV8o1wdei5A==", "text_app"=>{"phone_num"=>"6215123641"}, "commit"=>"Text Me!"}
+  [1m[35m (0.8ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "6215123641"], ["created_at", "2016-01-29 12:56:34.773630"], ["updated_at", "2016-01-29 12:56:34.773630"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 811ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 06:56:35 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (3.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:56:42 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9jG2vlSWlib/2Y8B9666FVNj0UYZM5V1vITFGLR/S4jufH37h+mt10nwaXtnCUnqrX1c56o584w0jUJdBRzk0g==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (4.1ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 73ms (Views: 60.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:59:54 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9jG2vlSWlib/2Y8B9666FVNj0UYZM5V1vITFGLR/S4jufH37h+mt10nwaXtnCUnqrX1c56o584w0jUJdBRzk0g==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[36m (5.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.9ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (5.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (35.8ms)
+Completed 200 OK in 107ms (Views: 89.9ms | ActiveRecord: 6.2ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 06:59:57 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NGoIPjLQjFE6nVbMyOfKGIy0f/oUyX5YadV204y5YCgsJ8N74a+3oIy0sLZYQDnncqryW6fDGKHh3PGWPdrPcg==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[36m (1.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (3.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 99ms (Views: 86.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:05:52 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 85ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:05:57 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ehkjauwjAeuO/3AnPZL7Hg47nL1Nq9dAGn1Sb3TdpmRiVOgvP1w6GjjWll2tNQjh8CURHP6hsbmSdNUqxb4JPg==", "text_app"=>{"phone_num"=>"asdfasdfa"}, "commit"=>"Text Me!"}
+  [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+  [1m[35m (2.8ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (8.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 96ms (Views: 85.7ms | ActiveRecord: 3.6ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:06:11 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F8iUVBOFrB6OYM40bAUK3vWNA84kEmm0ij1QgOJ9nBcPhV8RwPqX7zhJKE78ovkhC5OOb5cYD00CNNfFUx4zTQ==", "text_app"=>{"phone_num"=>"651232123321321"}, "commit"=>"Text Me!"}
+  [1m[36m (1.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.9ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (2.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 109ms (Views: 98.9ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:06:16 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qtO6EKGZTgycbu3mW3Qop5PNupQcJ4dmsHNS3E4aJiyynnFVcuZ1/SpHC5zL09tYbdM3Na8t4Z84etWZ/3mJdg==", "text_app"=>{"phone_num"=>"sneakerdoodles"}, "commit"=>"Text Me!"}
+  [1m[36m (2.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.2ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (17.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 97ms (Views: 87.8ms | ActiveRecord: 3.3ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:06:25 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4Z/TA3uo+y6Cxmf45oFdFRLo4xK30LGcxkZjk5I6dFj50hhGqNfA3zTvgYJ2Jq7q7PZuswTa12VOT+TWI1nbAg==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[36m (3.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "6143269262"], ["created_at", "2016-01-29 13:06:25.231238"], ["updated_at", "2016-01-29 13:06:25.231238"]]
+  [1m[36m (36.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/136
+Completed 302 Found in 974ms (ActiveRecord: 40.9ms)
+
+
+Started GET "/text_apps/136" for ::1 at 2016-01-29 07:06:26 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"136"}
+  [1m[35mTextApp Load (0.8ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 136]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "136"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 204ms (Views: 186.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:10:23 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:4: syntax error, unexpected keyword_do_block, expecting keyword_end
+'.freeze;       @text_app.errors.first[1] do |message| 
+                                            ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/text_apps/_form.html.erb:4: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/text_apps/_form.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70274006551540'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (257.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (170.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (387.7ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:10:25 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.1ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:4: syntax error, unexpected keyword_do_block, expecting keyword_end
+'.freeze;       @text_app.errors.first[1] do |message| 
+                                            ^
+/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/text_apps/_form.html.erb:4: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/text_apps/_form.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273979458440'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (176.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (154.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (349.8ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:15:30 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/views/text_apps/_form.html.erb:18: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/text_apps/_form.html.erb:18: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273979458440'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (161.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (138.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (346.1ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:15:41 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (4.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <% if @text_apps.errors.any? %>
+    2:   <% @text_apps.errors.messages.each do |message| %>
+    3:     <div class="message"><%= message.last.last.html_safe %></div>
+    4:   <% end %>
+  app/views/text_apps/_form.html.erb:1:in `_app_views_text_apps__form_html_erb___1754887231222127759_70273980988400'
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273979458440'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (176.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (5.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (151.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (383.9ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:16:00 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (5.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <% if @text_apps.errors.try.any? %>
+    2:   <% @text_apps.errors.messages.each do |message| %>
+    3:     <div class="message"><%= message.last.last.html_safe %></div>
+    4:   <% end %>
+  app/views/text_apps/_form.html.erb:1:in `_app_views_text_apps__form_html_erb___1754887231222127759_70273994682620'
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273979458440'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (171.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (140.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (329.9ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:16:10 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4Z/TA3uo+y6Cxmf45oFdFRLo4xK30LGcxkZjk5I6dFj50hhGqNfA3zTvgYJ2Jq7q7PZuswTa12VOT+TWI1nbAg==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "6143269262"], ["created_at", "2016-01-29 13:16:10.233445"], ["updated_at", "2016-01-29 13:16:10.233445"]]
+  [1m[35m (15.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/137
+Completed 302 Found in 1241ms (ActiveRecord: 16.0ms)
+
+
+Started GET "/text_apps/137" for ::1 at 2016-01-29 07:16:11 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"137"}
+  [1m[36mTextApp Load (0.3ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 137]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "137"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 190ms (Views: 187.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:16:13 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (5.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (8.9ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <% if @text_apps.errors.try.any? %>
+    2:   <% @text_apps.errors.messages.each do |message| %>
+    3:     <div class="message"><%= message.last.last.html_safe %></div>
+    4:   <% end %>
+  app/views/text_apps/_form.html.erb:1:in `_app_views_text_apps__form_html_erb___1754887231222127759_70273980823080'
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70274006551540'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (178.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (180.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (20.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (407.4ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:16:14 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (8.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <% if @text_apps.errors.try.any? %>
+    2:   <% @text_apps.errors.messages.each do |message| %>
+    3:     <div class="message"><%= message.last.last.html_safe %></div>
+    4:   <% end %>
+  app/views/text_apps/_form.html.erb:1:in `_app_views_text_apps__form_html_erb___1754887231222127759_70273994682620'
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273979458440'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (187.0ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (136.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (344.6ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:16:33 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (4.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (no method name given):
+    1: <% if @text_app.errors.try.any? %>
+    2:   <% @text_app.errors.messages.each do |message| %>
+    3:     <div class="message"><%= message.last.last.html_safe %></div>
+    4:   <% end %>
+  app/views/text_apps/_form.html.erb:1:in `_app_views_text_apps__form_html_erb___1754887231222127759_70273981148580'
+  app/views/text_apps/new.html.erb:6:in `_app_views_text_apps_new_html_erb___2708475562112249944_70273979458440'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.3ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (164.1ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (141.2ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (333.8ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:19:35 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 77ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:19:37 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3u2/m9szdY7MxjCZfCs6NqlYFNHIy0q0bZE0YEW/lMDGoHTeCExOf3rv1uPsjMnJV0aZcHvBLE3lmLMl9Nw7mg==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (1.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 83ms (Views: 73.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:20:21 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XzJ5QxLbnAL0NcHhSwQ5onhL7iMlQ5oLbvW77+8ttyVHf7IGwaSn80IcJ5vbo8pdhlVjgpZJ/PLm/DyqXk4Yfw==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  Rendered text_apps/_form.html.erb (3.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 107ms (Views: 100.5ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:20:28 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AeBdn8hGRpiOONA/oNILOymi3Q3kwZWcbP96T6x7q3oZrZbaGzl9aTgRNkUwdfjE17xQrFfL82Xk9v0KHRgEIA==", "text_app"=>{"phone_num"=>"5215215621"}, "commit"=>"Text Me!"}
+  [1m[36m (5.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "5215215621"], ["created_at", "2016-01-29 13:20:28.308519"], ["updated_at", "2016-01-29 13:20:28.308519"]]
+  [1m[36m (16.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 510ms (ActiveRecord: 22.9ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:20:28 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 79ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:20:36 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AeBdn8hGRpiOONA/oNILOymi3Q3kwZWcbP96T6x7q3oZrZbaGzl9aTgRNkUwdfjE17xQrFfL82Xk9v0KHRgEIA==", "text_app"=>{"phone_num"=>"5215215621"}, "commit"=>"Text Me!"}
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "5215215621"], ["created_at", "2016-01-29 13:20:36.011231"], ["updated_at", "2016-01-29 13:20:36.011231"]]
+  [1m[35m (17.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 290ms (ActiveRecord: 19.1ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:20:36 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:20:39 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AeBdn8hGRpiOONA/oNILOymi3Q3kwZWcbP96T6x7q3oZrZbaGzl9aTgRNkUwdfjE17xQrFfL82Xk9v0KHRgEIA==", "text_app"=>{"phone_num"=>"5215215621"}, "commit"=>"Text Me!"}
+  [1m[36m (4.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "5215215621"], ["created_at", "2016-01-29 13:20:40.028803"], ["updated_at", "2016-01-29 13:20:40.028803"]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 263ms (ActiveRecord: 6.9ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:20:40 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 74ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-29 07:27:50 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 180ms (Views: 178.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:28:22 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0SvIO51Nssk5mWISQV926/l84L/eNVinOaXf7WOjbvnJZgN+TjKJOI+whGjR+IUUB2JtHm0/Pl6xrFio0sDBow==", "text_app"=>{"phone_num"=>"612612351"}, "commit"=>"Text Me!"}
+  [1m[35m (0.9ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mROLLBACK[0m
+  Rendered text_apps/_form.html.erb (10.1ms)
+  Rendered text_apps/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 117ms (Views: 109.6ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:28:38 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/QJ4qC8hKbvtmI0soN4VmUk16rCdl6YSUVKw0x4pPGLlT7Pt/F4SSluxa1YweeZmtytnES6dwOvZWzeWr0qTOA==", "text_app"=>{"phone_num"=>"6126123125"}, "commit"=>"Text Me!"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "6126123125"], ["created_at", "2016-01-29 13:28:38.490448"], ["updated_at", "2016-01-29 13:28:38.490448"]]
+  [1m[35m (16.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 519ms (ActiveRecord: 16.8ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:28:39 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:29:59 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wpEevc1+SDw+F0WVTAZk1yHXOKX8gRxAPs+5PxhdrzDa3NX4HgFzzYg+o+/coZco38m1BE+Lerm2xj56qT4Aag==", "text_app"=>{"phone_num"=>"asdfa"}, "commit"=>"Text Me!"}
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Redirected to 
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 4.3ms)
+
+NoMethodError (undefined method `new_url' for #<TextAppsController:0x007fd3e09e7dc8>):
+  app/controllers/text_apps_controller.rb:49:in `block (2 levels) in create'
+  app/controllers/text_apps_controller.rb:39:in `create'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (223.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (3.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (202.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.4ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (429.7ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 07:30:40 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 111ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:30:43 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (3.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 89ms (Views: 79.2ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:30:46 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"21mFVhBPs4hc64OgrXfGLbE8hTwkHJ/moMlgnx6XhILDFE4TwzCIeerCZdo90DXSTyIInZcW+R8owOfar/Qr2A==", "text_app"=>{"phone_num"=>"asdfasdfa"}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.1ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 15ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:30:46 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 84ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:30:50 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w1hBfu4CKJhU6h3ggwuQ7FapXCAHPzpPiw/KtXpC/VLbFYo7PX0TaeLD+5oTrGMTqLfRgbQ1XLYDBk3wyyFSCA==", "text_app"=>{"phone_num"=>"asdfasdfas"}, "commit"=>"Text Me!"}
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.9ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 39ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:30:50 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:33:47 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kN8kHBPxvqkwhbagRBCgxWd+8vb/DECXroHtmgasB1GIku9ZwI6FWIasUNrUt1M6mWB/V0wGJm4miGrft8+oCw==", "text_app"=>{"phone_num"=>"555"}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 6ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:33:48 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 97ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:34:35 -0600
+
+SyntaxError (/Users/tynanj/workspace/startupinst/TwilloApp/app/controllers/text_apps_controller.rb:49: syntax error, unexpected tIDENTIFIER, expecting '}'
+...rect_to '/text_apps/new' notice: 'This phone number is forma...
+...                               ^):
+  app/controllers/text_apps_controller.rb:49: syntax error, unexpected tIDENTIFIER, expecting '}'
+
+
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (203.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (168.9ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.6ms)
+  Rendered /Users/tynanj/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (369.0ms)
+
+
+Started GET "/text_apps" for ::1 at 2016-01-29 07:35:10 -0600
+Processing by TextAppsController#index as HTML
+  Rendered text_apps/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 122ms (Views: 118.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:35:12 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.2ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 66ms (Views: 58.0ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:35:16 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BZUMXdNhVOplwmHG+cFYYG78Rwjd1NS3c+LMYvHqcQAd2McYAB5vG9Prh7xpZqufkOLKqW7esk7760snQIneWg==", "text_app"=>{"phone_num"=>"asdf"}, "commit"=>"Text Me!"}
+  [1m[36m (41.9ms)[0m  [1mBEGIN[0m
+  [1m[35m (3.9ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 59ms (ActiveRecord: 45.9ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:35:16 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (3.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 87ms (Views: 85.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:37:20 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 87ms (Views: 85.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:37:40 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 82ms (Views: 80.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:37:45 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0Zm1gxxGap5KRLu14H8w7fg/9e9RAWQk8bGN7KZhKnnJ1H7GzzlRb/xtXc9w2MMSBiF4TuILAt15uAqpFwKFIw==", "text_app"=>{"phone_num"=>"asdfasdfa"}, "commit"=>"Text Me!"}
+  [1m[36m (4.6ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.7ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 12ms (ActiveRecord: 5.3ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:37:45 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:38:42 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 86ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:38:45 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wYo6WIesLCGayBsdAW5a0b/VeEVrW62Sn0YN454kfXXZx/EdVNMX0Czh/WeRyakuQcv15NhRy2sXT4qmL0fSLw==", "text_app"=>{"phone_num"=>"asdfasdf"}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.2ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 17ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:38:45 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 64ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:39:25 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.1ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 81ms (Views: 71.0ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:39:28 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CnWfH7JJc/y8zYEEtAI6lQfSFA+1nWfwkutN/Na7Oj4SOFRaYTZIDQrkZ34kpclq+cyZrgaXAQka4sq5Z9iVZA==", "text_app"=>{"phone_num"=>"asdfasdfa"}, "commit"=>"Text Me!"}
+  [1m[36m (1.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 15ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:39:28 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (12.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:39:34 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"szr89CJPAJgN9nmlf4tR72rRkMUVYAN5sBGabPUSPGirdzex8TA7abvfn9/vLKIQlM8dZKZqZYA4GB0pRHGTMg==", "text_app"=>{"phone_num"=>"5555555555"}, "commit"=>"Text Me!"}
+  [1m[36m (1.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "5555555555"], ["created_at", "2016-01-29 13:39:34.212880"], ["updated_at", "2016-01-29 13:39:34.212880"]]
+  [1m[36m (18.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 851ms (ActiveRecord: 22.5ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:39:35 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.3ms)
+  Rendered text_apps/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:39:39 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QztROtlqi1nMXw4G0OcuvlPSy711BaQy4YsYAZhl8BVbdpp/ChWwqHp26HxAQN1BrcxGHMYPwstpgp9EKQZfTw==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[35m (0.9ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 8ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:39:39 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:40:45 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qjksG2RIN4WoBCibn/5eqfoEpKgAYn9PgfkL8dAmcz+ydOdetzcMdB4tzuEPWa1WBBopCbNoGbYJ8Iy0YUXcZQ==", "text_app"=>{"phone_num"=>"asdfasdfa"}, "commit"=>"Text Me!"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 55ms (ActiveRecord: 5.7ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:40:46 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 107ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:40:53 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GqJmQcf0TrQvxOcB4960qhvSbyRo8kOPNlVuo2u6FPsC760EFIt1RZntAXtzeUdV5czihdv4JXa+XOnm2tm7oQ==", "text_app"=>{"phone_num"=>"5123221321321231321"}, "commit"=>"Text Me!"}
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (1.1ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 11ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:40:53 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.9ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 86ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:41:00 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E2C7Fhci6PIAoTgLhhlm5ooSWGi02A4i4MDgE4IEMrsLLXBTxF3TA7aI3nEWvpUZdAzVyQfSaNtoyWdWM2ed4Q==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[35m (30.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "6143269262"], ["created_at", "2016-01-29 13:41:01.001122"], ["updated_at", "2016-01-29 13:41:01.001122"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/143
+Completed 302 Found in 1056ms (ActiveRecord: 31.1ms)
+
+
+Started GET "/text_apps/143" for ::1 at 2016-01-29 07:41:02 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"143"}
+  [1m[36mTextApp Load (0.7ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 143]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "143"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 82ms (Views: 75.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:41:08 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:41:26 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"teba6q/F3NOiznH0fa93cc7pgrHPsEWUhgVJPtEQdietqxGvfLrnIhTnl47tCISOMPcPEHy6I20ODM57YHPZfQ==", "text_app"=>{"phone_num"=>"asdfasdfasdfa"}, "commit"=>"Text Me!"}
+  [1m[36m (1.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (2.5ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 13ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:41:26 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (9.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 4210ms (Views: 4208.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/text_apps.self-d7b7abe5ad616e128d0be468c2ea31b52d4e9455c913de6ac0e7c630856fd71b.css?body=1" for ::1 at 2016-01-29 07:41:30 -0600
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:41:36 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lUS/y3mXQbutDBHut8EN6cp49MxQvd007DeWGk93/4eNCXSOquh6Shsl95QnZv4WNGZ5beO3u81kPhFf/hRQ3Q==", "text_app"=>{"phone_num"=>"654213212132123143"}, "commit"=>"Text Me!"}
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.8ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 20ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:41:36 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (4.3ms)
+  Rendered text_apps/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 91ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:41:42 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0IpbxargbztIIyRGNFN+8+3BbWIf8nCTeSkVZkdAjlDIx5CAeZ9Uyv4Kwjyk9I0ME9/gw6z4FmrxIJIj9iMhCg==", "text_app"=>{"phone_num"=>"5555555555"}, "commit"=>"Text Me!"}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "5555555555"], ["created_at", "2016-01-29 13:41:42.186712"], ["updated_at", "2016-01-29 13:41:42.186712"]]
+  [1m[36m (16.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 282ms (ActiveRecord: 18.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:41:42 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 81ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:41:53 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zCXP91PCEV9/Orxk1M+k2ECKm4rKo5fZm48fMHcm1IrUaASygL0qrskTWh5EaFcnvpQWK3mp8SAThph1xkV70A==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[35m (1.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "6143269262"], ["created_at", "2016-01-29 13:41:53.088473"], ["updated_at", "2016-01-29 13:41:53.088473"]]
+  [1m[35m (30.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/145
+Completed 302 Found in 452ms (ActiveRecord: 31.7ms)
+
+
+Started GET "/text_apps/145" for ::1 at 2016-01-29 07:41:53 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"145"}
+  [1m[36mTextApp Load (0.3ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 145]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "145"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:42:42 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.7ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:42:56 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KucXZP7YsiOov+ItW7UUtYSCzKQ6PVLHdjJiySmjC7EyqtwhLaeJ0h6WBFfLEudKepxBBYk3ND7+O+WMmMCk6w==", "text_app"=>{"phone_num"=>"asdfasdfasdf"}, "commit"=>"Text Me!"}
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (4.1ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 28ms (ActiveRecord: 5.1ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:42:56 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 66ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:43:02 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qWU2mQM2pA8fXQhFO+l1BDzDWQsdH8fs8yIed9OHez2xKP3c0Emf/ql07j+rTob7wt3Uqq4VoRV7K5kyYuTUZw==", "text_app"=>{"phone_num"=>"5555555555"}, "commit"=>"Text Me!"}
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "5555555555"], ["created_at", "2016-01-29 13:43:02.489715"], ["updated_at", "2016-01-29 13:43:02.489715"]]
+  [1m[36m (23.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 764ms (ActiveRecord: 25.1ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:43:03 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:43:08 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7f2TqoiUc92aFu0zb1ijscsfAeAxDUBbx332XrWSPp/1sFjvW+tILCw/C0n//1BONQGMQYIHJqJPdHEbBPGRxQ==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[35m (0.8ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "6143269262"], ["created_at", "2016-01-29 13:43:08.966932"], ["updated_at", "2016-01-29 13:43:08.966932"]]
+  [1m[35m (17.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/147
+Completed 302 Found in 401ms (ActiveRecord: 19.4ms)
+
+
+Started GET "/text_apps/147" for ::1 at 2016-01-29 07:43:09 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"147"}
+  [1m[36mTextApp Load (0.4ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 147]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "147"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 81ms (Views: 55.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:43:17 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.3ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 63ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:43:22 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KQYUIFLl1IMys+ZJzkdBR2aCzMrkDIPklKKv20xGImUxS99lgZrvcoSaADNe4LK4mJxBa1cG5R0cqyie/SWNPw==", "text_app"=>{"phone_num"=>"16143269262"}, "commit"=>"Text Me!"}
+  [1m[36m (1.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.8ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "16143269262"], ["created_at", "2016-01-29 13:43:22.113675"], ["updated_at", "2016-01-29 13:43:22.113675"]]
+  [1m[36m (3.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/148
+Completed 302 Found in 409ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/text_apps/148" for ::1 at 2016-01-29 07:43:22 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"148"}
+  [1m[35mTextApp Load (0.8ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 148]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "148"]]
+  Rendered text_apps/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 75ms (Views: 68.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:43:24 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.8ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 83ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:43:29 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JYgdeV3qyGaDc9rGs8BTlX586Qre5g7FD+/F7azSwk09xdY8jpXzlzVaPLwjZ6BqgGJkq23saDyH5kKoHbFtFw==", "text_app"=>{"phone_num"=>"+16143269262"}, "commit"=>"Text Me!"}
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "16143269262"], ["created_at", "2016-01-29 13:43:29.906020"], ["updated_at", "2016-01-29 13:43:29.906020"]]
+  [1m[35m (7.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/149
+Completed 302 Found in 445ms (ActiveRecord: 10.6ms)
+
+
+Started GET "/text_apps/149" for ::1 at 2016-01-29 07:43:30 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"149"}
+  [1m[36mTextApp Load (1.9ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 149]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "149"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 115ms (Views: 111.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:43:32 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 65ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:43:49 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UrOsJB417TCsbGi6T8dqtHSJWH5QwyWLk5G5D2WpNJhK/mdhzUrWwRpFjsDfYJlLipfV3+PJQ3IbmD5K1Mqbwg==", "text_app"=>{"phone_num"=>"(+1) (614) 326-9262"}, "commit"=>"Text Me!"}
+  [1m[36m (2.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "16143269262"], ["created_at", "2016-01-29 13:43:49.303544"], ["updated_at", "2016-01-29 13:43:49.303544"]]
+  [1m[36m (19.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/150
+Completed 302 Found in 661ms (ActiveRecord: 22.4ms)
+
+
+Started GET "/text_apps/150" for ::1 at 2016-01-29 07:43:49 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"150"}
+  [1m[35mTextApp Load (0.5ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 150]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "150"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 76ms (Views: 62.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:43:55 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:44:08 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"593oRDmneyycVXPFPUwEy+F+FLb7A/EKVhjNuWn1EVr/kCMB6thA3Sp8lb+t6/c0H2CZF0gJl/PeEUr82Ja+AA==", "text_app"=>{"phone_num"=>"asdfasdf"}, "commit"=>"Text Me!"}
+  [1m[35m (1.5ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 10ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:44:08 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:45:29 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XTEzF2tUhiAWYBFZnzoNYgEasoY9b617qi5RXjK6NhtFfPhSuCu90aBJ9yMPnf6d/wQ/J45ly4IiJ9Ybg9mZQQ==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "6143269262"], ["created_at", "2016-01-29 13:45:29.116492"], ["updated_at", "2016-01-29 13:45:29.116492"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/151
+Completed 302 Found in 1202ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/text_apps/151" for ::1 at 2016-01-29 07:45:30 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"151"}
+  [1m[36mTextApp Load (0.5ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 151]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "151"]]
+  Rendered text_apps/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 221ms (Views: 215.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/text_apps/151" for ::1 at 2016-01-29 07:45:57 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"151"}
+  [1m[36mTextApp Load (0.7ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 151]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "151"]]
+  Rendered text_apps/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 100ms (Views: 97.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/text_apps/151" for ::1 at 2016-01-29 07:46:43 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"151"}
+  [1m[36mTextApp Load (0.7ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 151]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "151"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3766ms (Views: 3763.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/text_apps.self-8d255fc48d31afcbbb5173cda07fe125b7d20ec7d1debb268ddb81b071dd74cd.css?body=1" for ::1 at 2016-01-29 07:46:47 -0600
+
+
+Started GET "/" for ::1 at 2016-01-29 07:47:23 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 246ms (Views: 244.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:47:27 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Z0COH9Yh6Nh/+YNdwKQjY4r5MbakrtF/DR/cmapLmDF0Ml9rCe8UtfWAHfnpWNycDVpZ2mY3bx0Pfg318qBOg==", "text_app"=>{"phone_num"=>"asdfasdfasdfasdf"}, "commit"=>"Text Me!"}
+  [1m[36m (2.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.8ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 13ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:47:27 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (3.0ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:47:32 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G73m3MeQig/tU2aVJsLezhfMjFoz12ETwYlVqbjUxUID8C2ZFO+x/lt6gO+2ZS0x6dIB+4DdB+pJgNLsCbdqGA==", "text_app"=>{"phone_num"=>"5555555555"}, "commit"=>"Text Me!"}
+  [1m[36m (3.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "5555555555"], ["created_at", "2016-01-29 13:47:32.989029"], ["updated_at", "2016-01-29 13:47:32.989029"]]
+  [1m[36m (16.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 757ms (ActiveRecord: 20.9ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:47:33 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:47:44 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MUnauF4MN2+Ec63S/w1vigqPFaeNzKACwOYVqE7mC2wpBBH9jXMMnjJaS6hvqpx19JGYBj7GxvtI75Lt/4WkNg==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[35m (3.0ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "6143269262"], ["created_at", "2016-01-29 13:47:44.039644"], ["updated_at", "2016-01-29 13:47:44.039644"]]
+  [1m[35m (18.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/153
+Completed 302 Found in 628ms (ActiveRecord: 22.3ms)
+
+
+Started GET "/text_apps/153" for ::1 at 2016-01-29 07:47:44 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"153"}
+  [1m[36mTextApp Load (0.8ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 153]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "153"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 75ms (Views: 72.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2016-01-29 07:48:54 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 92ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:49:41 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ypnCOLKjLOib6Z56RcvNs+NvCu8FVIOqSCPmZBj7eSfS1Al9YdwXGS3AeADVbD5MHXGHTrZe5VPAKmEhqZjWfQ==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "6143269262"], ["created_at", "2016-01-29 13:49:41.277991"], ["updated_at", "2016-01-29 13:49:41.277991"]]
+  [1m[36m (15.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/154
+Completed 302 Found in 963ms (ActiveRecord: 16.2ms)
+
+
+Started GET "/text_apps/154" for ::1 at 2016-01-29 07:49:42 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"154"}
+  [1m[35mTextApp Load (0.3ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 154]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "154"]]
+  Rendered text_apps/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 231ms (Views: 229.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/text_apps/154" for ::1 at 2016-01-29 07:49:56 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"154"}
+  [1m[35mTextApp Load (17.9ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 154]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "154"]]
+  Rendered text_apps/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 432ms (Views: 411.7ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/text_apps/154" for ::1 at 2016-01-29 07:51:38 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"154"}
+  [1m[35mTextApp Load (0.8ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 154]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "154"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 154ms (Views: 150.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/text_apps/154" for ::1 at 2016-01-29 07:52:28 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"154"}
+  [1m[35mTextApp Load (0.8ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 154]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "154"]]
+  Rendered text_apps/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 73ms (Views: 70.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:52:30 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:52:32 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Porrz4Pz8VwirnE9V1yBWsMc5c3CHkCTx0uQ1pih0iImxyCKUIzKrZSHl0fH+3KlPQJobHEUJmpPQheTKcJ9eA==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[35m (1.1ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 10ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:52:32 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (2.5ms)
+  Rendered text_apps/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 81ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 07:54:39 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mfJvT27URxAG9uMx9bdQkqbiXyYU/5FEJziDx42w4tWBv6QKvat84bDfBUtlEKNtWPzSh6f1972vMQSCPNNNjw==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[35m (3.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "6143269262"], ["created_at", "2016-01-29 13:54:40.005466"], ["updated_at", "2016-01-29 13:54:40.005466"]]
+  [1m[35m (39.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/155
+Completed 302 Found in 978ms (ActiveRecord: 44.1ms)
+
+
+Started GET "/text_apps/155" for ::1 at 2016-01-29 07:54:40 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"155"}
+  [1m[36mTextApp Load (0.9ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 155]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "155"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3498ms (Views: 3494.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/text_apps.self-c50734d3cdd8487f04a1c375ead3313eaa342325624085b0f20e1cc512a0a47c.css?body=1" for ::1 at 2016-01-29 07:54:44 -0600
+
+
+Started GET "/text_apps/155" for ::1 at 2016-01-29 07:55:20 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"155"}
+  [1m[36mTextApp Load (0.7ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", 155]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", "155"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 84ms (Views: 81.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 07:57:34 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 08:04:02 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mkND/qO25AU6am9TeXNXVFUa7clCSVsduq0AeuvlqWyCDoi7cMnf9IxDiSnp1KSrqwRgaPFDPeQypIc/WoYGNg==", "text_app"=>{"phone_num"=>""}, "commit"=>"Text Me!"}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.0ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 15ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 08:04:02 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 08:04:07 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xqJ2+GRUe5QwfoH6271kyxdW9BCcQyU3mZyNJjK+g8ne7729tytAZYZXZ4BLGpc06Uh5sS9JQ84RlQpjg90skw==", "text_app"=>{"phone_num"=>"asdfasdf"}, "commit"=>"Text Me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 11ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 08:04:07 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.6ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 08:04:13 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ciA2JaYRQ1pZ1JBvFU+rku0gDu2Hwhf67U6CEBoMlR1qbf1gdW54q+/9dhWF6FhtEz6DTDTIcQNlRwVVq286Rw==", "text_app"=>{"phone_num"=>"6143269262"}, "commit"=>"Text Me!"}
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.8ms)[0m  INSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["phone_num", "6143269262"], ["created_at", "2016-01-29 14:04:13.501910"], ["updated_at", "2016-01-29 14:04:13.501910"]]
+  [1m[36m (3.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/text_apps/156
+Completed 302 Found in 1172ms (ActiveRecord: 10.3ms)
+
+
+Started GET "/text_apps/156" for ::1 at 2016-01-29 08:04:14 -0600
+Processing by TextAppsController#show as HTML
+  Parameters: {"id"=>"156"}
+  [1m[35mTextApp Load (0.3ms)[0m  SELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1  [["id", 156]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "text_apps".* FROM "text_apps" WHERE "text_apps"."id" = $1 LIMIT 1[0m  [["id", "156"]]
+  Rendered text_apps/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 87ms (Views: 72.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 08:04:20 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/text_apps" for ::1 at 2016-01-29 08:04:28 -0600
+Processing by TextAppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eIhoj7hU+1yq2rgnqOdNDRwmomb/v4N4xKwBAOR3qOxgxaPKayvArRzzXl04QL7y4jgvx0y15YFMpYZFVRQHtg==", "text_app"=>{"phone_num"=>"5555555555"}, "commit"=>"Text Me!"}
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "text_apps" ("phone_num", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["phone_num", "5555555555"], ["created_at", "2016-01-29 14:04:28.168493"], ["updated_at", "2016-01-29 14:04:28.168493"]]
+  [1m[35m (15.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/text_apps/new
+Completed 302 Found in 292ms (ActiveRecord: 17.7ms)
+
+
+Started GET "/text_apps/new" for ::1 at 2016-01-29 08:04:28 -0600
+Processing by TextAppsController#new as HTML
+  Rendered text_apps/_form.html.erb (1.4ms)
+  Rendered text_apps/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.0ms)

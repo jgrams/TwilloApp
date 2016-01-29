@@ -1,5 +1,5 @@
 class TextApp < ActiveRecord::Base
-	  validates_format_of :phone_num, presence: true, :with => /\A(\+1|1)?([2-9]\d\d[2-9]\d{6})\z/, message: 'This number isn\'t formatted properly, try it like 555-555-5555' , on: :create
+	  validates_format_of :phone_num, :with => /\A(\+1|1)?([2-9]\d\d[2-9]\d{6})\z/, message: 'This number isn\'t formatted properly, try it like 555-555-5555'
 end
 
 class TextApp < ActiveRecord::Base

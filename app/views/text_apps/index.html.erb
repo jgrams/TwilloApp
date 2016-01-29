@@ -1,29 +1,3 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Listing Text Apps</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Phone num</th>
-      <th>Name</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @text_apps.each do |text_app| %>
-      <tr>
-        <td><%= text_app.phone_num %></td>
-        <td><%= text_app.name %></td>
-        <td><%= link_to 'Show', text_app %></td>
-        <td><%= link_to 'Edit', edit_text_app_path(text_app) %></td>
-        <td><%= link_to 'Destroy', text_app, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Text app', new_text_app_path %>
+<h2>This page is a mistake, it's not restful that my website goes here on reload.</h2>  
+<h1>But I could just hide it in HTML<h1>
+<h2><%= link_to 'Get Back to Texting', new_text_app_path %></h2>

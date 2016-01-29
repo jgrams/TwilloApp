@@ -21,7 +21,8 @@ class TextAppsController < ApplicationController
 
 
   # GET /text_apps/1/edit
-  def edit	
+  def edit
+  	
   end
 
 
@@ -45,13 +46,12 @@ class TextAppsController < ApplicationController
     					:body => "Hey Katie!  Hope you're having a great day!",
     					)
    	  	 	else
-    	    	format.html { render :new }
-      	  	format.json { render json: @text_app.errors, status: :unprocessable_entity }
+    	    	format.html { redirect_to '/text_apps/new', notice: 'This phone number is formatted incorrectly, try something like 555-555-5555'}
       		end
     	  end	
     rescue Twilio::REST::RequestError => e
       redirect_to '/text_apps/new'
-			flash[:notice] = "Twilio didn't recognize this as a valid number. Please try a different number."
+			flash[:notice] = "Twilio didn't recognize this number. Try again."
 		end
 
 	end
